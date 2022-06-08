@@ -37,6 +37,8 @@
 | - | - | - |
 | ICCV 2021 | EvIntSR-Net: Event Guided Multiple Latent Frames Reconstruction and Super-resolution | Latent frame reconstruction; MISR |
 | ECCV 2020 | Event Enhanced High-Quality Image Recovery | eSL-Net; Sparse learning|
+| CVPR 2020 | Joint Filtering of Intensity Images and Neuromorphic Events for High-Resolution Noise-Robust Imaging | GEF; Joint filtering|
+
 
 
 # 2. Deblurring with Event
@@ -44,6 +46,7 @@
 | Publication | Title | Highlight |
 | - | - | - |
 | ECCV 2020 | Event Enhanced High-Quality Image Recovery | eSL-Net; Sparse learning|
+| ECCV 2022 | Event-guided Deblurring of Unknown Exposure Time Videos | ETES; Cross-modal|
 
 # 3. Video Interpolation with Event
 
@@ -58,6 +61,11 @@
 | ECCV 2020 | Learning to See in the Dark with Events | |
 
 # 5. HDR Imaging with Event
+
+| Publication | Title | Highlight |
+| - | - | - |
+| CVPR 2019 | Event-based High Dynamic Range Image and Very High Frame Rate Video Generation using Conditional Generative Adversarial Networks | Conditional GAN|
+
 
 # 6. Event Signal Denoising
 
