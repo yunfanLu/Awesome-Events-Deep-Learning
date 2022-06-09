@@ -37,31 +37,42 @@
 | - | - | - |
 | ICCV 2021 | EvIntSR-Net: Event Guided Multiple Latent Frames Reconstruction and Super-resolution | Latent frame reconstruction; MISR |
 | ECCV 2020 | Event Enhanced High-Quality Image Recovery | eSL-Net; Sparse learning|
-
+| CVPR 2020 | Joint Filtering of Intensity Images and Neuromorphic Events for High-Resolution Noise-Robust Imaging | GEF; Joint filtering|
+| CVPR 2021 | Turning Frequency to Resolution: Video Super-resolution via Event Cameras| E-VSR; frequency|
 
 # 2. Deblurring with Event
-
 | Publication | Title | Highlight |
 | - | - | - |
 | ECCV 2020 | Event Enhanced High-Quality Image Recovery | eSL-Net; Sparse learning|
+| ECCV 2022 | Event-guided Deblurring of Unknown Exposure Time Videos | ETES; Cross-modal|
 
 # 3. Video Interpolation with Event
-
 | Publication | Title | Highlight |
 | - | - | - |
 
 
 # 4. Low-light Image Enhancement with Event
-
 | Publication | Title | Highlight |
 | - | - | - |
 | ECCV 2020 | Learning to See in the Dark with Events | |
 
 # 5. HDR Imaging with Event
+| Publication | Title | Highlight |
+| - | - | - |
+| CVPR 2019 | Event-based High Dynamic Range Image and Very High Frame Rate Video Generation using Conditional Generative Adversarial Networks | Conditional GAN|
+| TAPMI 2019 | High Speed and High Dynamic Range Video with an Event Camera | Recurrent network|
+| CVPR 2021 | Learning to Reconstruct High Speed and High Dynamic Range Videos from Events| RCNN; Temporal consistency|
+
+
+
 
 # 6. Event Signal Denoising
 
+
 # 7. Event Signal Super Resolution
+| CVPR 2020 | EventSR: From Asynchronous Events to Image Reconstruction, Restoration, and Super-Resolution via End-to-End Adversarial Learning| EventSR; End2end; Adversarial learning|
+| TAPMI 2020 | E2SRI: Learning to Super-Resolve Intensity Images from Events | SR-Net; RCNN|
+
 
 # 8. Event Backbone
 
