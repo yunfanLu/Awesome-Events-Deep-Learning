@@ -156,7 +156,6 @@
 | ----------- | ---------------------------------- | --------- |
 | CVPR-W 2021 | How To Calibrate Your Event Camera |           |
 
-
 ## 1.10 Optical Flow Estimation
 
 | Publication | Title                                                                   | Highlight |
@@ -208,7 +207,7 @@
 | ECCV 2022    | ESS: Learning Event-Based Semantic Segmentation from Still Images                                                |           |
 | IROS 2021    | ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data                                  |           |
 | CVPR 2021    | Dual Transfer Learning for Event-Based End-Task Prediction via Pluggable Event to Image Translation              |           |
-
+| CVPRW 2021   | SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos                     |           |
 ## 2.3 Pose Estimation
 
 ## 2.4 Video Understanding
