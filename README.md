@@ -242,6 +242,10 @@ Dynamic Graph CNN for Event-Camera Based Gesture Recognition
 ## 3.2 3D Reconstruction with Events
 
 ## 3.3 Depth estimation
+| Publication | Title                                                              | Highlight |
+|-------------| ------------------------------------------------------------------ | --------- |
+| ICCV 2021   | Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds|           |
+
 # 4. Compression
 
 # 4.1 Lossless
