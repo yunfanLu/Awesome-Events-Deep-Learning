@@ -211,7 +211,19 @@
 | CVPRW 2021  | SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos        |           |
 ## 2.3 Pose Estimation
 
+| Publication | Title                                                                     | Highlight  |
+| ----------- | ------------------------------------------------------------------------- | ---------- |
+| ICCV 2021   | EventHands: real-time neural 3D hand pose estimation from an event stream | Hand Pose  |
+| ICCV 2021   | EventHPE: Event-based 3D Human Pose and Shape Estimation                  | Human Pose |
+| CVPR 2020 | EventCap: Monocular 3D Capture of High-Speed Human Motions Using an Event Camera | Human Pose|
+| Arxiv 2022 | Efficient Human Pose Estimation via 3D Event Point Cloud | |
+| Arxiv 2022 | A Temporal Densely Connected Recurrent Network for Event-based Human Pose Estimation| |
+
 ## 2.4 Video Understanding
+
+Multipath Event-Based Network for Low-Power Human Action Recognition
+Human identification by gait from event-based camera
+Dynamic Graph CNN for Event-Camera Based Gesture Recognition
 
 ## 2.5 Tracking
 | Publication | Title                                                         | Highlight |
