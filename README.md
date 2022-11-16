@@ -202,6 +202,12 @@
 | CVPRW 2019  | Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras                                  |           |
 
 ## 2.2 Segmentation
+| Publication | Title                                                                                                             | Highlight |
+| ----------- | ----------------------------------------------------------                                                        | --------- |
+| CVPRW 2019   | EV-SegNet: Semantic Segmentation for Event-Based Cameras                                                         |           |
+| ECCV 2022    | ESS: Learning Event-Based Semantic Segmentation from Still Images                                                |           |
+| IROS 2021    | ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data                                  |           |
+| CVPR 2021    | Dual Transfer Learning for Event-Based End-Task Prediction via Pluggable Event to Image Translation              |           |
 
 ## 2.3 Pose Estimation
 
