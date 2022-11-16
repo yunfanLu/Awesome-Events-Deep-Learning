@@ -48,7 +48,8 @@
   - [2.5 Tracking](#25-tracking)
 - [3 Three-D Vision with Event](#3-three-d-vision-with-event)
   - [3.1 NeRF with Events](#31-nerf-with-events)
-  - [3.2 Reconstruction with Events](#32-reconstruction-with-events)
+  - [3.2 3D Reconstruction with Events](#32-3d-reconstruction-with-events)
+  - [3.3 Depth estimation](#33-depth-estimation)
 - [4. Compression](#4-compression)
 - [4.1 Lossless](#41-lossless)
 
@@ -181,13 +182,13 @@
 
 ## 2.1 Detection
 | Publication | Title                                                                                                             | Highlight |
-| ----------- | ----------------------------------------------------------                                                        | --------- |
+| ----------- | ----------------------------------------------------------------------------------------------------------------- | --------- |
 | NIPS 2020   | Learning to Detect Objects with a 1 Megapixel Event Camera                                                        |           |
 | ICRA 2022   | Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditio                                 |           |
 | ICIP 2021   | An Attention Fusion Network For Event-Based Vehicle Object Detection                                              |           |
 | TIP  2021   | Asynchronous Spatio-Temporal Memory Network for Continuous Event-Based Object Detection                           |           |
 | WACV 2022   | Learned Event-based Visual Perception for Improved Space Object Detection                                         |           |
-| IROA 2018   | Event-Based Moving Object Detection and Tracking                                                                  |           | 
+| IROA 2018   | Event-Based Moving Object Detection and Tracking                                                                  |           |
 | ICCVW 2021  | Moving Object Detection for Event-Based Vision Using Graph Spectral Clustering                                    |           |
 | ICME 2019   | Event-Based Vision Enhanced: A Joint Detection Framework in Autonomous Driving                                    |           |
 | ECCV 2020   | Event-Based Asynchronous Sparse Convolutional Networks                                                            |           |
@@ -201,13 +202,13 @@
 | CVPRW 2019  | Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras                                  |           |
 
 ## 2.2 Segmentation
-| Publication | Title                                                                                                             | Highlight |
-| ----------- | ----------------------------------------------------------                                                        | --------- |
-| CVPRW 2019   | EV-SegNet: Semantic Segmentation for Event-Based Cameras                                                         |           |
-| ECCV 2022    | ESS: Learning Event-Based Semantic Segmentation from Still Images                                                |           |
-| IROS 2021    | ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data                                  |           |
-| CVPR 2021    | Dual Transfer Learning for Event-Based End-Task Prediction via Pluggable Event to Image Translation              |           |
-| CVPRW 2021   | SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos                     |           |
+| Publication | Title                                                                                               | Highlight |
+| ----------- | --------------------------------------------------------------------------------------------------- | --------- |
+| CVPRW 2019  | EV-SegNet: Semantic Segmentation for Event-Based Cameras                                            |           |
+| ECCV 2022   | ESS: Learning Event-Based Semantic Segmentation from Still Images                                   |           |
+| IROS 2021   | ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data                     |           |
+| CVPR 2021   | Dual Transfer Learning for Event-Based End-Task Prediction via Pluggable Event to Image Translation |           |
+| CVPRW 2021  | SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos        |           |
 ## 2.3 Pose Estimation
 
 ## 2.4 Video Understanding
@@ -218,6 +219,7 @@
 |             | Object tracking on event cameras with offline–online learning |           |
 
 
+
 # 3 Three-D Vision with Event
 
 ## 3.1 NeRF with Events
@@ -225,9 +227,9 @@
 | ----------- | ------------------------------------------------------------------- | --------- |
 | Arxiv 2022  | EventNeRF: Neural Radiance Fields from a Single Colour Event Camera |           |
 
-## 3.2 Reconstruction with Events
+## 3.2 3D Reconstruction with Events
 
-
+## 3.3 Depth estimation
 # 4. Compression
 
 # 4.1 Lossless
