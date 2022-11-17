@@ -165,6 +165,7 @@
 | ICCV 2020   | Single Image Optical Flow Estimation With an Event Camera               |           |
 | CVPR 2016   | Simultaneous Optical Flow and Intensity Estimation From an Event Camera |           |
 | IEEE 2017   | Event-based real-time optical flow estimation                           |           |
+| CVPR 2020   | Single Image Optical Flow Estimation With an Event Camera               |           |
 
 ## 1.11 Motion Estimation
 
