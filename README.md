@@ -167,6 +167,7 @@
 | IEEE 2017   | Event-based real-time optical flow estimation                           |           |
 | CVPR 2020   | Single Image Optical Flow Estimation With an Event Camera               |           |
 | CVPR 2019   | Unsupervised Event-Based Learning of Optical Flow, Depth, and Egomotion |           |
+| ICCV 2019   | End-to-End Learning of Representations for Asynchronous Event-Based Data|           |
 
 ## 1.11 Motion Estimation
 
