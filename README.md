@@ -46,7 +46,7 @@
   - [2.3 Pose Estimation](#23-pose-estimation)
   - [2.4 Video Understanding](#24-video-understanding)
   - [2.5 Tracking](#25-tracking)
-  - [2.6 Visual-Inertial Odometry (VIO)](#26-Visual-Inertial-Odometry)
+  - [2.6 Visual-Inertial Odometry](#26-visual-inertial-odometry)
 - [3 Three-D Vision with Event](#3-three-d-vision-with-event)
   - [3.1 NeRF with Events](#31-nerf-with-events)
   - [3.2 3D Reconstruction with Events](#32-3d-reconstruction-with-events)
@@ -73,21 +73,13 @@
 
 ## 0.3 Dataset
 
-<<<<<<< HEAD
-| Publication | Title                                                       | Highlight |
-|-------------|-------------------------------------------------------------| --------- |
-| CVPR 2022   | Video to Events: Recycling Video Datasets for Event Cameras |           |
-|             | DSEC: A Stereo Event Camera Dataset for Driving Scenarios   |           |
-
-
-=======
-| Publication | Title                                                                                   | Highlight  |
-| ----------- | --------------------------------------------------------------------------------------- | ---------- |
-| CVPR 20202  | Video to Events: Recycling Video Datasets for Event Cameras                             |            |
-| CVPR 2019   | CED: Color Event Camera Dataset                                                         | First Color|
-| IEEE 2018   | The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception |            |
-| IEEE 2021   | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                               |            |
->>>>>>> 39c4e4b690e7abe3745aa52586ee53b8e885ae12
+| Publication | Title                                                                                   | Highlight   |
+| ----------- | --------------------------------------------------------------------------------------- | ----------- |
+| CVPR 2022   | Video to Events: Recycling Video Datasets for Event Cameras                             |             |
+|             | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                               |             |
+| CVPR 2019   | CED: Color Event Camera Dataset                                                         | First Color |
+| IEEE 2018   | The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception |             |
+| IEEE 2021   | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                               |             |
 # 1. Low-Level Vision 
 
 ## 1.0 Image / Video Reconstruction
@@ -168,18 +160,15 @@
 
 ## 1.10 Optical Flow Estimation
 
-| Publication | Title                                                                   | Highlight |
-|-------------|-------------------------------------------------------------------------| --------- |
-| ICCV 2020   | Single Image Optical Flow Estimation With an Event Camera               |           |
-| CVPR 2016   | Simultaneous Optical Flow and Intensity Estimation From an Event Camera |           |
-<<<<<<< HEAD
-| 3DV         | E-RAFT: Dense Optical Flow from Event Cameras                           |           |
-=======
-| IEEE 2017   | Event-based real-time optical flow estimation                           |           |
-| CVPR 2020   | Single Image Optical Flow Estimation With an Event Camera               |           |
-| CVPR 2019   | Unsupervised Event-Based Learning of Optical Flow, Depth, and Egomotion |           |
-| ICCV 2019   | End-to-End Learning of Representations for Asynchronous Event-Based Data|           |
->>>>>>> 39c4e4b690e7abe3745aa52586ee53b8e885ae12
+| Publication | Title                                                                    | Highlight |
+| ----------- | ------------------------------------------------------------------------ | --------- |
+| 3DV  2021   | E-RAFT: Dense Optical Flow from Event Cameras                            |           |
+| ICCV 2020   | Single Image Optical Flow Estimation With an Event Camera                |           |
+| CVPR 2020   | Single Image Optical Flow Estimation With an Event Camera                |           |
+| CVPR 2019   | Unsupervised Event-Based Learning of Optical Flow, Depth, and Egomotion  |           |
+| ICCV 2019   | End-to-End Learning of Representations for Asynchronous Event-Based Data |           |
+| IEEE 2017   | Event-based real-time optical flow estimation                            |           |
+| CVPR 2016   | Simultaneous Optical Flow and Intensity Estimation From an Event Camera  |           |
 
 ## 1.11 Motion Estimation
 | Publication | Title                                                        | Highlight           |
@@ -197,7 +186,7 @@
 
 ## 2.1 Detection
 | Publication | Title                                                                                                             | Highlight |
-|-------------|-------------------------------------------------------------------------------------------------------------------| --------- |
+| ----------- | ----------------------------------------------------------------------------------------------------------------- | --------- |
 | NIPS 2020   | Learning to Detect Objects with a 1 Megapixel Event Camera                                                        |           |
 | ICRA 2022   | Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditio                                 |           |
 | ICIP 2021   | An Attention Fusion Network For Event-Based Vehicle Object Detection                                              |           |
@@ -220,7 +209,7 @@
 
 ## 2.2 Segmentation
 | Publication | Title                                                                                                                          | Highlight |
-|-------------|--------------------------------------------------------------------------------------------------------------------------------| --------- |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------ | --------- |
 | CVPRW 2019  | EV-SegNet: Semantic Segmentation for Event-Based Cameras                                                                       |           |
 | ECCV 2022   | ESS: Learning Event-Based Semantic Segmentation from Still Images                                                              |           |
 | IROS 2021   | ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data                                                |           |
@@ -236,13 +225,13 @@
 
 ## 2.3 Pose Estimation
 
-| Publication | Title                                                                     | Highlight  |
-| ----------- | ------------------------------------------------------------------------- | ---------- |
-| ICCV 2021   | EventHands: real-time neural 3D hand pose estimation from an event stream | Hand Pose  |
-| ICCV 2021   | EventHPE: Event-based 3D Human Pose and Shape Estimation                  | Human Pose |
-| CVPR 2020 | EventCap: Monocular 3D Capture of High-Speed Human Motions Using an Event Camera | Human Pose|
-| Arxiv 2022 | Efficient Human Pose Estimation via 3D Event Point Cloud | |
-| Arxiv 2022 | A Temporal Densely Connected Recurrent Network for Event-based Human Pose Estimation| |
+| Publication | Title                                                                                | Highlight  |
+| ----------- | ------------------------------------------------------------------------------------ | ---------- |
+| ICCV 2021   | EventHands: real-time neural 3D hand pose estimation from an event stream            | Hand Pose  |
+| ICCV 2021   | EventHPE: Event-based 3D Human Pose and Shape Estimation                             | Human Pose |
+| CVPR 2020   | EventCap: Monocular 3D Capture of High-Speed Human Motions Using an Event Camera     | Human Pose |
+| Arxiv 2022  | Efficient Human Pose Estimation via 3D Event Point Cloud                             |            |
+| Arxiv 2022  | A Temporal Densely Connected Recurrent Network for Event-based Human Pose Estimation |            |
 
 ## 2.4 Video Understanding
 
@@ -251,14 +240,14 @@ Human identification by gait from event-based camera
 Dynamic Graph CNN for Event-Camera Based Gesture Recognition
 
 ## 2.5 Tracking
-| Publication | Title                                                                   | Highlight |
-| ----------- |-------------------------------------------------------------------------| --------- |
-|             | Object tracking on event cameras with offline–online learning           |           |
-|             | Real-Time Face & Eye Tracking and Blink Detection using Event Cameras   |           |
+| Publication | Title                                                                 | Highlight |
+| ----------- | --------------------------------------------------------------------- | --------- |
+|             | Object tracking on event cameras with offline–online learning         |           |
+|             | Real-Time Face & Eye Tracking and Blink Detection using Event Cameras |           |
 
 ## 2.6 Visual-Inertial Odometry
 | Publication | Title                                                                                                  | Highlight |
-|-------------|--------------------------------------------------------------------------------------------------------| --------- |
+| ----------- | ------------------------------------------------------------------------------------------------------ | --------- |
 | sensors     | Visual Odometry with an Event Camera Using Continuous Ray Warping and Volumetric Contrast Maximization |           |
 
 # 3 Three-D Vision with Event
@@ -271,9 +260,9 @@ Dynamic Graph CNN for Event-Camera Based Gesture Recognition
 ## 3.2 3D Reconstruction with Events
 
 ## 3.3 Depth estimation
-| Publication | Title                                                              | Highlight |
-|-------------| ------------------------------------------------------------------ | --------- |
-| ICCV 2021   | Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds|           |
+| Publication | Title                                                               | Highlight |
+| ----------- | ------------------------------------------------------------------- | --------- |
+| ICCV 2021   | Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds |           |
 
 # 4. Compression
 
