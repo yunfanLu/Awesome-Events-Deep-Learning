@@ -73,12 +73,21 @@
 
 ## 0.3 Dataset
 
+<<<<<<< HEAD
 | Publication | Title                                                       | Highlight |
 |-------------|-------------------------------------------------------------| --------- |
 | CVPR 2022   | Video to Events: Recycling Video Datasets for Event Cameras |           |
 |             | DSEC: A Stereo Event Camera Dataset for Driving Scenarios   |           |
 
 
+=======
+| Publication | Title                                                                                   | Highlight  |
+| ----------- | --------------------------------------------------------------------------------------- | ---------- |
+| CVPR 20202  | Video to Events: Recycling Video Datasets for Event Cameras                             |            |
+| CVPR 2019   | CED: Color Event Camera Dataset                                                         | First Color|
+| IEEE 2018   | The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception |            |
+| IEEE 2021   | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                               |            |
+>>>>>>> 39c4e4b690e7abe3745aa52586ee53b8e885ae12
 # 1. Low-Level Vision 
 
 ## 1.0 Image / Video Reconstruction
@@ -163,7 +172,14 @@
 |-------------|-------------------------------------------------------------------------| --------- |
 | ICCV 2020   | Single Image Optical Flow Estimation With an Event Camera               |           |
 | CVPR 2016   | Simultaneous Optical Flow and Intensity Estimation From an Event Camera |           |
+<<<<<<< HEAD
 | 3DV         | E-RAFT: Dense Optical Flow from Event Cameras                           |           |
+=======
+| IEEE 2017   | Event-based real-time optical flow estimation                           |           |
+| CVPR 2020   | Single Image Optical Flow Estimation With an Event Camera               |           |
+| CVPR 2019   | Unsupervised Event-Based Learning of Optical Flow, Depth, and Egomotion |           |
+| ICCV 2019   | End-to-End Learning of Representations for Asynchronous Event-Based Data|           |
+>>>>>>> 39c4e4b690e7abe3745aa52586ee53b8e885ae12
 
 ## 1.11 Motion Estimation
 | Publication | Title                                                        | Highlight           |
