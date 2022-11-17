@@ -77,6 +77,7 @@
 | CVPR 20202  | Video to Events: Recycling Video Datasets for Event Cameras                             |            |
 | CVPR 2019   | CED: Color Event Camera Dataset                                                         | First Color|
 | IEEE 2018   | The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception |            |
+| IEEE 2021   | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                               |            |
 # 1. Low-Level Vision 
 
 ## 1.0 Image / Video Reconstruction
