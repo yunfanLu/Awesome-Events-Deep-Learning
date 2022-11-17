@@ -46,6 +46,7 @@
   - [2.3 Pose Estimation](#23-pose-estimation)
   - [2.4 Video Understanding](#24-video-understanding)
   - [2.5 Tracking](#25-tracking)
+  - [2.6 Visual-Inertial Odometry (VIO)](#26-Visual-Inertial-Odometry)
 - [3 Three-D Vision with Event](#3-three-d-vision-with-event)
   - [3.1 NeRF with Events](#31-nerf-with-events)
   - [3.2 3D Reconstruction with Events](#32-3d-reconstruction-with-events)
@@ -73,15 +74,14 @@
 ## 0.3 Dataset
 
 | Publication | Title                                                       | Highlight |
-| ----------- | ----------------------------------------------------------- | --------- |
-| CVPR 20202  | Video to Events: Recycling Video Datasets for Event Cameras |           |
+|-------------|-------------------------------------------------------------| --------- |
+| CVPR 2022   | Video to Events: Recycling Video Datasets for Event Cameras |           |
+|             | DSEC: A Stereo Event Camera Dataset for Driving Scenarios   |           |
 
 
 # 1. Low-Level Vision 
 
 ## 1.0 Image / Video Reconstruction
-
-
 | Publication | Title                                                                                                              | Highlight |
 | ----------- | ------------------------------------------------------------------------------------------------------------------ | --------- |
 | CVPR 2021   | Back to Event Basics: Self-Supervised Learning of Image Reconstruction for Event Cameras via Photometric Constancy |           |
@@ -89,7 +89,7 @@
 | WACV 2020   | Fast Image Reconstruction with an Event Camera                                                                     |           |
 | T-PAMI 2020 | High Frame Rate Video Reconstruction Based on an Event Camera                                                      |           |
 | T-PAMI 2019 | High Speed and High Dynamic Range Video with an Event Camera                                                       |           |
-
+| ICCP  2021  | EventGAN: Leveraging Large Scale Image Datasets for Event Cameras                                                  |           |
 ## 1.1 Super Resolution with Event
 
 | Publication | Title                                                                                                | Highlight                         |
@@ -160,13 +160,12 @@
 ## 1.10 Optical Flow Estimation
 
 | Publication | Title                                                                   | Highlight |
-| ----------- | ----------------------------------------------------------------------- | --------- |
+|-------------|-------------------------------------------------------------------------| --------- |
 | ICCV 2020   | Single Image Optical Flow Estimation With an Event Camera               |           |
 | CVPR 2016   | Simultaneous Optical Flow and Intensity Estimation From an Event Camera |           |
+| 3DV         | E-RAFT: Dense Optical Flow from Event Cameras                           |           |
 
 ## 1.11 Motion Estimation
-
-
 | Publication | Title                                                        | Highlight           |
 | ----------- | ------------------------------------------------------------ | ------------------- |
 | T-IRAL 2016 | Accurate Angular Velocity Estimation With an Event Camera    | velocity estimation |
@@ -182,7 +181,7 @@
 
 ## 2.1 Detection
 | Publication | Title                                                                                                             | Highlight |
-| ----------- | ----------------------------------------------------------------------------------------------------------------- | --------- |
+|-------------|-------------------------------------------------------------------------------------------------------------------| --------- |
 | NIPS 2020   | Learning to Detect Objects with a 1 Megapixel Event Camera                                                        |           |
 | ICRA 2022   | Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditio                                 |           |
 | ICIP 2021   | An Attention Fusion Network For Event-Based Vehicle Object Detection                                              |           |
@@ -200,15 +199,25 @@
 | IROS 2018   | Towards Event-Driven Object Detection with Off-the-Shelf Deep Learning                                            |           |
 | ACCVW 2018  | PCA-RECT: An Energy-Efficient Object Detection Approach for Event Cameras                                         |           |
 | CVPRW 2019  | Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras                                  |           |
+| CVPR  2021  | N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras                                    |           |
+|             | Detection of Binary Square Fiducial Markers Using an Event Camera                                                 |           |
 
 ## 2.2 Segmentation
-| Publication | Title                                                                                               | Highlight |
-| ----------- | --------------------------------------------------------------------------------------------------- | --------- |
-| CVPRW 2019  | EV-SegNet: Semantic Segmentation for Event-Based Cameras                                            |           |
-| ECCV 2022   | ESS: Learning Event-Based Semantic Segmentation from Still Images                                   |           |
-| IROS 2021   | ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data                     |           |
-| CVPR 2021   | Dual Transfer Learning for Event-Based End-Task Prediction via Pluggable Event to Image Translation |           |
-| CVPRW 2021  | SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos        |           |
+| Publication | Title                                                                                                                          | Highlight |
+|-------------|--------------------------------------------------------------------------------------------------------------------------------| --------- |
+| CVPRW 2019  | EV-SegNet: Semantic Segmentation for Event-Based Cameras                                                                       |           |
+| ECCV 2022   | ESS: Learning Event-Based Semantic Segmentation from Still Images                                                              |           |
+| IROS 2021   | ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data                                                |           |
+| CVPR 2021   | Dual Transfer Learning for Event-Based End-Task Prediction via Pluggable Event to Image Translation                            |           |
+| CVPRW 2021  | SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos                                   |           |
+| CVPR 2020   | Video to Events:Recycling Video Datasets for Event Cameras                                                                     |           |
+| CVPR 2020   | Learning Visual Motion Segmentation using Event Surfaces                                                                       |           |
+| CVPR 2021   | EvDistill: Asynchronous Events to End-task Learning via Bidirectional Reconstruction-guided Cross-modal Knowledge Distillation |           |
+| ICCV 2019   | Event-Based Motion Segmentation by Motion Compensation                                                                         |           |
+| TPAMI 2022  | Globally-Optimal Contrast Maximisation for Event Cameras                                                                       |           |
+|             | Event-Based Motion Segmentation With Spatio-Temporal Graph Cuts                                                                |           |
+|             | Event Camera Survey and Extension Application to Semantic Segmentation                                                         |           |
+
 ## 2.3 Pose Estimation
 
 | Publication | Title                                                                     | Highlight  |
@@ -226,11 +235,15 @@ Human identification by gait from event-based camera
 Dynamic Graph CNN for Event-Camera Based Gesture Recognition
 
 ## 2.5 Tracking
-| Publication | Title                                                         | Highlight |
-| ----------- | ------------------------------------------------------------- | --------- |
-|             | Object tracking on event cameras with offline–online learning |           |
+| Publication | Title                                                                   | Highlight |
+| ----------- |-------------------------------------------------------------------------| --------- |
+|             | Object tracking on event cameras with offline–online learning           |           |
+|             | Real-Time Face & Eye Tracking and Blink Detection using Event Cameras   |           |
 
-
+## 2.6 Visual-Inertial Odometry
+| Publication | Title                                                                                                  | Highlight |
+|-------------|--------------------------------------------------------------------------------------------------------| --------- |
+| sensors     | Visual Odometry with an Event Camera Using Continuous Ray Warping and Volumetric Contrast Maximization |           |
 
 # 3 Three-D Vision with Event
 
