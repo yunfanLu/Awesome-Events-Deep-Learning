@@ -364,9 +364,9 @@
 
 ## 3.3 Depth estimation
 
+| Publication | Title                                                               | Highlight |
 | ----------- | ------------------------------------------------------------------- | --------- |
-| Publication | Title | Highlight |
-| ICCV 2021 | Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds | |
+| ICCV 2021   | Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds |           |
 
 # 4. Compression
 
