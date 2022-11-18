@@ -13,76 +13,69 @@
   </p>
 </p>
 
-## Conference Time:
-| conference | Submission deadline |
-| ---------- | ------------------- |
-| AAAI2023   | 2022/08/08          |
-| CVPR2023   | 2022/11(TBD)        |
+## DDL Time:
+
+2023-01-15
 
 <h2>Table of contents</h2>
 
-- [0. Event Imaging, Simulation, Representation and Dataset](#0-event-imaging-simulation-representation-and-dataset)
-  - [0.1 Imaging](#01-imaging)
-  - [0.1 Simulation](#01-simulation)
-  - [0.2 Representation](#02-representation)
-  - [0.3 Dataset](#03-dataset)
-- [1. Low-Level Vision](#1-low-level-vision)
-  - [1.0 Image / Video Reconstruction](#10-image--video-reconstruction)
-  - [1.1 Super Resolution with Event](#11-super-resolution-with-event)
-  - [1.2 Deblurring with Event](#12-deblurring-with-event)
-  - [1.3 Video Interpolation with Event](#13-video-interpolation-with-event)
-  - [1.4 Low-light Image Enhancement with Event](#14-low-light-image-enhancement-with-event)
-  - [1.5 HDR Imaging with Event](#15-hdr-imaging-with-event)
-  - [1.6 Denoising](#16-denoising)
-  - [1.7 Super Resolution](#17-super-resolution)
-  - [1.8 Deblur](#18-deblur)
-  - [1.9 Calibrate](#19-calibrate)
-  - [1.10 Optical Flow Estimation](#110-optical-flow-estimation)
-  - [1.11 Motion Estimation](#111-motion-estimation)
-  - [1.12 SAI](#112-sai)
-- [2 High-Level](#2-high-level)
-  - [2.1 Detection](#21-detection)
-  - [2.2 Segmentation](#22-segmentation)
-  - [2.3 Pose Estimation](#23-pose-estimation)
-  - [2.4 Video Understanding](#24-video-understanding)
-  - [2.5 Tracking](#25-tracking)
-  - [2.6 Visual-Inertial Odometry](#26-visual-inertial-odometry)
-- [3 Three-D Vision with Event](#3-three-d-vision-with-event)
-  - [3.1 NeRF with Events](#31-nerf-with-events)
-  - [3.2 3D Reconstruction with Events](#32-3d-reconstruction-with-events)
-  - [3.3 Depth estimation](#33-depth-estimation)
-- [4. Compression](#4-compression)
-- [4.1 Lossless](#41-lossless)
+- [1  Event Representation](#1--event-representation)
+  - [1.0 Event Streaming](#10-event-streaming)
+  - [1.1 Event Count Image](#11-event-count-image)
+  - [1.2 Event Voxel Grids](#12-event-voxel-grids)
+  - [1.3 Event Frame](#13-event-frame)
+- [2 Event Only](#2-event-only)
+  - [2.1 Image / Video Reconstruction](#21-image--video-reconstruction)
+    - [(1) Reconstruction and SR](#1-reconstruction-and-sr)
+  - [2.2 Optical Flow Estimation](#22-optical-flow-estimation)
+  - [2.3 Classifications](#23-classifications)
+  - [2.4 Detection](#24-detection)
+  - [2.5 Segmentation](#25-segmentation)
+- [3 Event + RGB](#3-event--rgb)
+  - [3.1 Event Guided Image / Video SR](#31-event-guided-image--video-sr)
+  - [3.2 Event Guided Image / Video Deblurring](#32-event-guided-image--video-deblurring)
+  - [3.3 Event Guided Image / Video HDR](#33-event-guided-image--video-hdr)
+    - [(1) Low Light](#1-low-light)
+  - [3.4 Event Guided Image / Video Denoising](#34-event-guided-image--video-denoising)
+  - [3.5 Event Guided Video Interpolation](#35-event-guided-video-interpolation)
+  - [3.6 Depth estimation](#36-depth-estimation)
+- [4 Domain Specific](#4-domain-specific)
+  - [4.1 NeRF](#41-nerf)
+  - [4.2 Human Pose and Shape](#42-human-pose-and-shape)
+  - [4.3 Body Tracking](#43-body-tracking)
+  - [4.5 Compression](#45-compression)
+  - [4.4 SAI](#44-sai)
+- [5 Robotic Vision](#5-robotic-vision)
+  - [5.1 Corner Tracking](#51-corner-tracking)
+  - [5.2 Camera Pose Estimation](#52-camera-pose-estimation)
+  - [5.3 Calibrate](#53-calibrate)
+  - [5.4 Motion Estimation](#54-motion-estimation)
+  - [5.5 Visual-Inertial Odometry](#55-visual-inertial-odometry)
+- [6 New Direction](#6-new-direction)
+- [7 Discussion](#7-discussion)
+- [8 Conclusion](#8-conclusion)
+- [Supplementary Material](#supplementary-material)
+  - [Event Dataset](#event-dataset)
+  - [Simulation](#simulation)
 
-# 0. Event Imaging, Simulation, Representation and Dataset
 
-## 0.1 Imaging 
+# 1  Event Representation
+## 1.0 Event Streaming
 
-## 0.1 Simulation
+## 1.1 Event Count Image
 
+## 1.2 Event Voxel Grids
 
-
-| Publication | Title                                                       | Highlight |
-| ----------- | ----------------------------------------------------------- | --------- |
-| ECCV 2020   | Reducing the Sim-to-Real Gap for Event Cameras              |           |
-| CVPR 20202  | Video to Events: Recycling Video Datasets for Event Cameras |           |
-## 0.2 Representation
 | Publication | Title                                                      | Highlight |
 | ----------- | ---------------------------------------------------------- | --------- |
 | T-PAMA 2020 | Time-Ordered Recent Event (TORE) Volumes for Event Cameras |           |
 
-## 0.3 Dataset
+## 1.3 Event Frame
 
-| Publication | Title                                                                                   | Highlight   |
-| ----------- | --------------------------------------------------------------------------------------- | ----------- |
-| CVPR 2022   | Video to Events: Recycling Video Datasets for Event Cameras                             |             |
-|             | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                               |             |
-| CVPR 2019   | CED: Color Event Camera Dataset                                                         | First Color |
-| IEEE 2018   | The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception |             |
-| IEEE 2021   | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                               |             |
-# 1. Low-Level Vision 
 
-## 1.0 Image / Video Reconstruction
+# 2 Event Only
+
+## 2.1 Image / Video Reconstruction
 | Publication | Title                                                                                                              | Highlight |
 | ----------- | ------------------------------------------------------------------------------------------------------------------ | --------- |
 | CVPR 2021   | Back to Event Basics: Self-Supervised Learning of Image Reconstruction for Event Cameras via Photometric Constancy |           |
@@ -91,8 +84,8 @@
 | T-PAMI 2020 | High Frame Rate Video Reconstruction Based on an Event Camera                                                      |           |
 | T-PAMI 2019 | High Speed and High Dynamic Range Video with an Event Camera                                                       |           |
 | ICCP  2021  | EventGAN: Leveraging Large Scale Image Datasets for Event Cameras                                                  |           |
-## 1.1 Super Resolution with Event
 
+### (1) Reconstruction and SR
 | Publication | Title                                                                                                | Highlight                         |
 | ----------- | ---------------------------------------------------------------------------------------------------- | --------------------------------- |
 | ICCV 2021   | EvIntSR-Net: Event Guided Multiple Latent Frames Reconstruction and Super-resolution                 | Latent frame reconstruction; MISR |
@@ -100,65 +93,8 @@
 | CVPR 2020   | Joint Filtering of Intensity Images and Neuromorphic Events for High-Resolution Noise-Robust Imaging | GEF; Joint filtering              |
 | CVPR 2021   | Turning Frequency to Resolution: Video Super-resolution via Event Cameras                            | E-VSR; frequency                  |
 
-## 1.2 Deblurring with Event
-| Publication | Title                                                   | Highlight                |
-| ----------- | ------------------------------------------------------- | ------------------------ |
-| ECCV 2020   | Event Enhanced High-Quality Image Recovery              | eSL-Net; Sparse learning |
-| ECCV 2022   | Event-guided Deblurring of Unknown Exposure Time Videos | ETES; Cross-modal        |
+## 2.2 Optical Flow Estimation
 
-## 1.3 Video Interpolation with Event
-| Publication | Title                                                                                               | Highlight                 |
-| ----------- | --------------------------------------------------------------------------------------------------- | ------------------------- |
-| CVPR 2022   | TimeReplayer: Unlocking the Potential of Event Cameras for Video Interpolation                      |                           |
-| CVPR 2022   | E-CIR: Event-Enhanced Continuous Intensity Recovery                                                 |                           |
-| CVPR 2022   | Time Lens++: Event-based Frame Interpolation with Parametric Non-linear Flow and Multi-scale Fusion | Dataset                   |
-| CVPR 2022   | Unifying Motion Deblurring and Frame Interpolation with Events                                      |                           |
-| ECCV 2022   | Video Interpolation by Event-driven Anisotropic Adjustment of Optical Flow                          |                           |
-| ICCV 2021   | Training Weakly Supervised Video Frame Interpolation with Events                                    | Weakly Supervised         |
-| CVPR 2021   | Time Lens: Event-based Video Frame Interpolation                                                    | First Work; Dataset       |
-| CVPR 2021   | EFI-Net: Video Frame Interpolation from Fusion of Events and Frames                                 | Dataset; Open Dataset     |
-| ECCV 2020   | Learning Event-Driven Video Deblurring and Interpolation                                            | Deblurring; Interpolation |
-| ICCV-W 2019 | Event-driven Video Frame Synthesis                                                                  |                           |
-
-
-## 1.4 Low-light Image Enhancement with Event
-| Publication | Title                                   | Highlight |
-| ----------- | --------------------------------------- | --------- |
-| ECCV 2020   | Learning to See in the Dark with Events |           |
-
-## 1.5 HDR Imaging with Event
-| Publication | Title                                                                                                                            | Highlight                  |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
-| CVPR 2022   | Multi-Bracket High Dynamic Range Imaging With Event Cameras                                                                      |                            |
-| ICCV 2021   | An Asynchronous Kalman Filter for Hybrid Event Cameras                                                                           |                            |
-| CVPR 2019   | Event-based High Dynamic Range Image and Very High Frame Rate Video Generation using Conditional Generative Adversarial Networks | Conditional GAN            |
-| TAPMI 2019  | High Speed and High Dynamic Range Video with an Event Camera                                                                     | Recurrent network          |
-| CVPR 2021   | Learning to Reconstruct High Speed and High Dynamic Range Videos from Events                                                     | RCNN; Temporal consistency |
-
-## 1.6 Denoising
-
-
-## 1.7 Super Resolution
-| Publication | Title                                                                                                                            | Highlight                              |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| CVPR 2020   | EventSR: From Asynchronous Events to Image Reconstruction, Restoration, and Super-Resolution via End-to-End Adversarial Learning | EventSR; End2end; Adversarial learning |
-| TAPMI 2020  | E2SRI: Learning to Super-Resolve Intensity Images from Events                                                                    | SR-Net; RCNN                           |
-
-
-
-## 1.8 Deblur
-| Publication | Title                                                               | Highlight |
-| ----------- | ------------------------------------------------------------------- | --------- |
-| T-CAI       | Robust motion compensation for event cameras with smooth constraint |           |
-
-
-## 1.9 Calibrate
-
-| Publication | Title                              | Highlight |
-| ----------- | ---------------------------------- | --------- |
-| CVPR-W 2021 | How To Calibrate Your Event Camera |           |
-
-## 1.10 Optical Flow Estimation
 
 | Publication | Title                                                                    | Highlight |
 | ----------- | ------------------------------------------------------------------------ | --------- |
@@ -170,21 +106,10 @@
 | IEEE 2017   | Event-based real-time optical flow estimation                            |           |
 | CVPR 2016   | Simultaneous Optical Flow and Intensity Estimation From an Event Camera  |           |
 
-## 1.11 Motion Estimation
-| Publication | Title                                                        | Highlight           |
-| ----------- | ------------------------------------------------------------ | ------------------- |
-| T-IRAL 2016 | Accurate Angular Velocity Estimation With an Event Camera    | velocity estimation |
-| ICRA 2020   | EVDodgeNet: Deep Dynamic Obstacle Dodging with Event Cameras |                     |
 
-## 1.12 SAI
+## 2.3 Classifications
 
-| Publication | Title                                                        | Highlight |
-| ----------- | ------------------------------------------------------------ | --------- |
-| CVPR 2021   | Event-Based Synthetic Aperture Imaging With a Hybrid Network |           |
-
-# 2 High-Level 
-
-## 2.1 Detection
+## 2.4 Detection
 | Publication | Title                                                                                                             | Highlight |
 | ----------- | ----------------------------------------------------------------------------------------------------------------- | --------- |
 | NIPS 2020   | Learning to Detect Objects with a 1 Megapixel Event Camera                                                        |           |
@@ -207,7 +132,7 @@
 | CVPR  2021  | N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras                                    |           |
 |             | Detection of Binary Square Fiducial Markers Using an Event Camera                                                 |           |
 
-## 2.2 Segmentation
+## 2.5 Segmentation
 | Publication | Title                                                                                                                          | Highlight |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------ | --------- |
 | CVPRW 2019  | EV-SegNet: Semantic Segmentation for Event-Based Cameras                                                                       |           |
@@ -223,7 +148,72 @@
 |             | Event-Based Motion Segmentation With Spatio-Temporal Graph Cuts                                                                |           |
 |             | Event Camera Survey and Extension Application to Semantic Segmentation                                                         |           |
 
-## 2.3 Pose Estimation
+
+# 3 Event + RGB 
+
+## 3.1 Event Guided Image / Video SR
+
+
+| Publication | Title                                                                                                                            | Highlight                              |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| CVPR 2020   | EventSR: From Asynchronous Events to Image Reconstruction, Restoration, and Super-Resolution via End-to-End Adversarial Learning | EventSR; End2end; Adversarial learning |
+| TAPMI 2020  | E2SRI: Learning to Super-Resolve Intensity Images from Events                                                                    | SR-Net; RCNN                           |
+
+
+## 3.2 Event Guided Image / Video Deblurring
+| Publication | Title                                                               | Highlight                |
+| ----------- | ------------------------------------------------------------------- | ------------------------ |
+| ECCV 2020   | Event Enhanced High-Quality Image Recovery                          | eSL-Net; Sparse learning |
+| ECCV 2022   | Event-guided Deblurring of Unknown Exposure Time Videos             | ETES; Cross-modal        |
+| T-CAI       | Robust motion compensation for event cameras with smooth constraint |                          |
+
+
+## 3.3 Event Guided Image / Video HDR
+
+| Publication | Title                                                                                                                            | Highlight                  |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| CVPR 2022   | Multi-Bracket High Dynamic Range Imaging With Event Cameras                                                                      |                            |
+| ICCV 2021   | An Asynchronous Kalman Filter for Hybrid Event Cameras                                                                           |                            |
+| CVPR 2019   | Event-based High Dynamic Range Image and Very High Frame Rate Video Generation using Conditional Generative Adversarial Networks | Conditional GAN            |
+| TAPMI 2019  | High Speed and High Dynamic Range Video with an Event Camera                                                                     | Recurrent network          |
+| CVPR 2021   | Learning to Reconstruct High Speed and High Dynamic Range Videos from Events                                                     | RCNN; Temporal consistency |
+
+### (1) Low Light
+| Publication | Title                                   | Highlight |
+| ----------- | --------------------------------------- | --------- |
+| ECCV 2020   | Learning to See in the Dark with Events |           |
+
+## 3.4 Event Guided Image / Video Denoising
+
+## 3.5 Event Guided Video Interpolation
+
+| Publication | Title                                                                                               | Highlight                 |
+| ----------- | --------------------------------------------------------------------------------------------------- | ------------------------- |
+| CVPR 2022   | TimeReplayer: Unlocking the Potential of Event Cameras for Video Interpolation                      |                           |
+| CVPR 2022   | E-CIR: Event-Enhanced Continuous Intensity Recovery                                                 |                           |
+| CVPR 2022   | Time Lens++: Event-based Frame Interpolation with Parametric Non-linear Flow and Multi-scale Fusion | Dataset                   |
+| CVPR 2022   | Unifying Motion Deblurring and Frame Interpolation with Events                                      |                           |
+| ECCV 2022   | Video Interpolation by Event-driven Anisotropic Adjustment of Optical Flow                          |                           |
+| ICCV 2021   | Training Weakly Supervised Video Frame Interpolation with Events                                    | Weakly Supervised         |
+| CVPR 2021   | Time Lens: Event-based Video Frame Interpolation                                                    | First Work; Dataset       |
+| CVPR 2021   | EFI-Net: Video Frame Interpolation from Fusion of Events and Frames                                 | Dataset; Open Dataset     |
+| ECCV 2020   | Learning Event-Driven Video Deblurring and Interpolation                                            | Deblurring; Interpolation |
+| ICCV-W 2019 | Event-driven Video Frame Synthesis                                                                  |                           |
+
+## 3.6 Depth estimation
+| Publication | Title                                                               | Highlight |
+| ----------- | ------------------------------------------------------------------- | --------- |
+| ICCV 2021   | Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds |           |
+
+# 4 Domain Specific
+
+
+## 4.1 NeRF
+| Publication | Title                                                               | Highlight |
+| ----------- | ------------------------------------------------------------------- | --------- |
+| Arxiv 2022  | EventNeRF: Neural Radiance Fields from a Single Colour Event Camera |           |
+
+## 4.2 Human Pose and Shape
 
 | Publication | Title                                                                                | Highlight  |
 | ----------- | ------------------------------------------------------------------------------------ | ---------- |
@@ -233,40 +223,74 @@
 | Arxiv 2022  | Efficient Human Pose Estimation via 3D Event Point Cloud                             |            |
 | Arxiv 2022  | A Temporal Densely Connected Recurrent Network for Event-based Human Pose Estimation |            |
 
-## 2.4 Video Understanding
+## 4.3 Body Tracking
 
-Multipath Event-Based Network for Low-Power Human Action Recognition
-Human identification by gait from event-based camera
-Dynamic Graph CNN for Event-Camera Based Gesture Recognition
-
-## 2.5 Tracking
 | Publication | Title                                                                 | Highlight |
 | ----------- | --------------------------------------------------------------------- | --------- |
 |             | Object tracking on event cameras with offline–online learning         |           |
 |             | Real-Time Face & Eye Tracking and Blink Detection using Event Cameras |           |
 
-## 2.6 Visual-Inertial Odometry
+
+## 4.5 Compression
+| Publication | Title                                       | Highlight |
+| ----------- | ------------------------------------------- | --------- |
+| T-SPL 2020  | Lossless Compression of Event Camera Frames |           |
+
+## 4.4 SAI
+
+| Publication | Title                                                        | Highlight |
+| ----------- | ------------------------------------------------------------ | --------- |
+| CVPR 2021   | Event-Based Synthetic Aperture Imaging With a Hybrid Network |           |
+
+
+# 5 Robotic Vision
+
+## 5.1 Corner Tracking
+
+## 5.2 Camera Pose Estimation
+
+
+## 5.3 Calibrate
+
+| Publication | Title                              | Highlight |
+| ----------- | ---------------------------------- | --------- |
+| CVPR-W 2021 | How To Calibrate Your Event Camera |           |
+
+## 5.4 Motion Estimation
+| Publication | Title                                                        | Highlight           |
+| ----------- | ------------------------------------------------------------ | ------------------- |
+| T-IRAL 2016 | Accurate Angular Velocity Estimation With an Event Camera    | velocity estimation |
+| ICRA 2020   | EVDodgeNet: Deep Dynamic Obstacle Dodging with Event Cameras |                     |
+
+## 5.5 Visual-Inertial Odometry
 | Publication | Title                                                                                                  | Highlight |
 | ----------- | ------------------------------------------------------------------------------------------------------ | --------- |
 | sensors     | Visual Odometry with an Event Camera Using Continuous Ray Warping and Volumetric Contrast Maximization |           |
 
-# 3 Three-D Vision with Event
+# 6 New Direction
 
-## 3.1 NeRF with Events
-| Publication | Title                                                               | Highlight |
-| ----------- | ------------------------------------------------------------------- | --------- |
-| Arxiv 2022  | EventNeRF: Neural Radiance Fields from a Single Colour Event Camera |           |
 
-## 3.2 3D Reconstruction with Events
+# 7 Discussion
 
-## 3.3 Depth estimation
-| Publication | Title                                                               | Highlight |
-| ----------- | ------------------------------------------------------------------- | --------- |
-| ICCV 2021   | Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds |           |
 
-# 4. Compression
+# 8 Conclusion
 
-# 4.1 Lossless
-| Publication | Title                                       | Highlight |
-| ----------- | ------------------------------------------- | --------- |
-| T-SPL 2020  | Lossless Compression of Event Camera Frames |           |
+
+
+
+# Supplementary Material
+
+## Event Dataset
+| Publication | Title                                                                                   | Highlight   |
+| ----------- | --------------------------------------------------------------------------------------- | ----------- |
+| CVPR 2022   | Video to Events: Recycling Video Datasets for Event Cameras                             |             |
+|             | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                               |             |
+| CVPR 2019   | CED: Color Event Camera Dataset                                                         | First Color |
+| IEEE 2018   | The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception |             |
+| IEEE 2021   | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                               |             |
+
+## Simulation
+| Publication | Title                                                       | Highlight |
+| ----------- | ----------------------------------------------------------- | --------- |
+| ECCV 2020   | Reducing the Sim-to-Real Gap for Event Cameras              |           |
+| CVPR 20202  | Video to Events: Recycling Video Datasets for Event Cameras |           |
