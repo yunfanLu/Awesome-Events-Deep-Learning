@@ -135,7 +135,6 @@
 | 3DV 2021    | E-RAFT: Dense Optical Flow from Event Cameras                                                                                       |           |
 | T-PAMI 2020 | Distance Surface for Event-Based Optical Flow                                                                                       |           |
 | IROS 2020   | Unsupervised Learning of Dense Optical Flow, Depth and Egomotion with Event-Based Sensors                                           |           |
-| ICCV 2020   | Single Image Optical Flow Estimation With an Event Camera                                                                           |           |
 | CVPR 2020   | Single Image Optical Flow Estimation With an Event Camera                                                                           |           |
 | T-PAMI 2019 | Unsupervised Learning of a Hierarchical Spiking Neural Network for Optical Flow Estimation: From Events to Global Motion Perception |           |
 | ICCV 2019   | End-to-End Learning of Representations for Asynchronous Event-Based Data                                                            |           |
