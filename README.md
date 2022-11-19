@@ -25,6 +25,7 @@
   - [1.2 Event Voxel Grids](#12-event-voxel-grids)
   - [1.3 Surface of Active Event (SAE)](#13-surface-of-active-event-sae)
   - [1.4 Histograms of Averaged Time Surfaces (HATS)](#14-histograms-of-averaged-time-surfaces-hats)
+  - [Open Sources Projects](#open-sources-projects)
 - [2 Event Only](#2-event-only)
   - [2.1 Image / Video Reconstruction](#21-image--video-reconstruction)
     - [(1) Reconstruction and SR](#1-reconstruction-and-sr)
@@ -88,6 +89,13 @@
 | Publication | Title                                                                                  | Highlight  |
 | ----------- | -------------------------------------------------------------------------------------- | ---------- |
 | CVPR 2018   | Hats: Histograms of averaged time surfaces for robust event-based object classiﬁcation | First Work |
+
+
+## Open Sources Projects
+
+| Project | URL                              | Description                                                        |
+| ------- | -------------------------------- | ------------------------------------------------------------------ |
+| Chain   | https://github.com/eleboss/chain | The effect about different representation for event classification |
 
 # 2 Event Only
 
