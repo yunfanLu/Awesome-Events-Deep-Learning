@@ -3,9 +3,11 @@
 Arxiv 2022
 
 ## Research Question:
-	We demonstrate that it is possible to learn NeRF suitable for novel-view synthesis in the RGB space from asynchronous event streams. 
+	Whether an event stream from a DVS moving around the scene is sufficient to reconstruct a 3D representation of a static scent, e.g., NeRF.
 
-
+## Highlights:
+(1) We demonstrate NERF estimation from a single clour event camera in scenarios that would not be conveivable with an RGB camera (e.g., with high speed movements, motion blur or insufficient lighting).
+  
 ## Motivation:
 (1)	Event camera instead of an RGB camera have several merits, including its ability to handle strong motion blur that exist in RGB images and could cause several RGB-based computer vision methods to fail. 
 (2)	Event cameras do not suffer from motion blur and have already brought valuable contributions in the important and long-standing problems of hand and body tracking in this regard.
