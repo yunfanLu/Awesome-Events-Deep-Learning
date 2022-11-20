@@ -82,7 +82,7 @@
 
 | Publication             | Title                                                                                                                   | Highlight                                            |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| T-RAL 2020              | efficient Spatial-Temporal Normalization of SAE Representation for Event Camera                                          |                                                      |
+| T-RAL 2020              | Efficient Spatial-Temporal Normalization of SAE Representation for Event Camera                                          |                                                      |
 | CVPR 2019               | Speed invariant time surface for learning to detect corner points with event-based cameras                              | Speed Invariant Time Surface + SAE                   |
 | ISACS 2019              | N-HAR: A neuromorphic event-based human activity recognition system using memory surfaces                               | Memory Surface                                       |
 | Neurosci 2019           | Investigation of event-based surfaces for high-speed detection, unsupervised feature extraction, and object recognition | Time-Window Normalization + SAE, Time-surfaces       |
