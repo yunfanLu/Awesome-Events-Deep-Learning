@@ -1,4 +1,4 @@
-# Learning To Reconstruct High Speed and High Dynamic Range Videos From Events
+# Learning to Super Resolve Intensity Images from Events
 
 CVPR 2021
 
