@@ -174,7 +174,18 @@
 
 
 
-## 2.3 Classifications
+## 2.3 Classification
+
+
+| Publication | Title                                                                            | Highlight |
+| ----------- | -------------------------------------------------------------------------------- | --------- |
+| CVPR 2022   | Ev-TTA: Test-Time Adaptation for Event-Based Object Recognition                  |           |
+| CVPR 2022   | AEGNN: Asynchronous Event-based Graph Neural Networks                            |           |
+| CVPR 2022   | A Voxel Graph CNN for Object Classification with Event Cameras                   |           |
+| ICCV 2021   | Graph-based Asynchronous Event Processing for Rapid Object Recognition           |           |
+| ICCV 2021   | N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras   |           |
+| ICCV 2021   | Temporal-wise Attention Spiking Neural Networks for Event Streams Classification |           |
+
 
 ## 2.4 Detection
 | Publication | Title                                                                                                             | Highlight |

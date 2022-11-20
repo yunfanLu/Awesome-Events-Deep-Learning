@@ -1,4 +1,4 @@
-# Et-NeRF: Event Based Neural Radiance Field
+# Ev-NeRF: Event Based Neural Radiance Field
 
 Arxiv 2022
 
@@ -20,3 +20,7 @@ Arxiv 2022
 (3) Intensity image reconstruction: novel-view image synthesis, 3D reconstruction and HDR imaging
 
 (4) Performance comparable to many existing event-vision algorithms 
+
+## Experiemnts:
+Noise Reduction / HDR Image Reconstruction / Intensity Image Reconstruction / Novel View Synthesis / 3D Sturcture Estimation
+
