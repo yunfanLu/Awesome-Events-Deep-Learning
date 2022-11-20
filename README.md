@@ -30,7 +30,7 @@
   - [2.1 Image / Video Reconstruction](#21-image--video-reconstruction)
     - [(1) Reconstruction and SR](#1-reconstruction-and-sr)
   - [2.2 Optical Flow Estimation](#22-optical-flow-estimation)
-  - [2.3 Classifications](#23-classifications)
+  - [2.3 Classification](#23-classification)
   - [2.4 Detection](#24-detection)
   - [2.5 Segmentation](#25-segmentation)
 - [3 Event + RGB](#3-event--rgb)
@@ -80,10 +80,13 @@
 ## 1.3 Surface of Active Event (SAE)
 
 
-| Publication | Title                                                                          | Highlight  |
-| ----------- | ------------------------------------------------------------------------------ | ---------- |
-| T-RAL 2020  | Efﬁcient Spatial-Temporal Normalization of SAE Representation for Event Camera |            |
-| T-NLL 2014  | The event-based visual ﬂow                                                     | First work |
+| Publication | Title                                                                                                                   | Highlight      |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------- | -------------- |
+| T-RAL 2020  | Efﬁcient Spatial-Temporal Normalization of SAE Representation for Event Camera                                          |                |
+| T-NLL 2014  | The event-based visual ﬂow                                                                                              | First work     |
+| T-PAMI 2017 | Hots: A hierarchy of event-based time-surfaces for pattern recognition                                                  | Time-surfaces  |
+|             | Investigation of event-based surfaces for high-speed detection, unsupervised feature extraction, and object recognition | Time-surfaces  |
+| ISACS 2019  | N-HAR: A neuromorphic event-based human activity recognition system using memory surfaces                               | Memory Surface |
 
 ## 1.4 Histograms of Averaged Time Surfaces (HATS)
 | Publication | Title                                                                                  | Highlight  |
@@ -302,6 +305,8 @@
 | Publication | Title                                                               | Highlight |
 | ----------- | ------------------------------------------------------------------- | --------- |
 | Arxiv 2022  | EventNeRF: Neural Radiance Fields from a Single Colour Event Camera |           |
+| Arxiv 2022  | Ev-NeRF: Event Based Neural Radiance Field                          |           |
+| Arxiv 2022  | E-NeRF: Neural Radiance Fields from a Moving Event Camera           |           |
 
 ## 4.2 Human Pose and Shape
 
@@ -403,15 +408,18 @@
 
 ## Event Dataset
 
-| Publication | Title                                                                                   | Highlight    |
-| ----------- | --------------------------------------------------------------------------------------- | ------------ |
-| CVPR 2022   | Video to -Events: Recycling Video Datasets for Event Cameras                            |              |
-|             | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                               |              |
-| T-CG 2021   | Event Based, Near-Eye Gaze Tracking Beyond 10,000Hz                                     | Eye Tracking |
-| IEEE 2021   | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                               |              |
-| CVPR 2019   | CED: Color Event Camera Dataset                                                         | First Color  |
-| CVPR 2019   | DHP19: Dynamic Vision Sensor 3D Human Pose Dataset                                      |              |
-| IEEE 2018   | The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception |              |
+| Publication   | Title                                                                                                 | Highlight    |
+| ------------- | ----------------------------------------------------------------------------------------------------- | ------------ |
+| CVPR 2022     | Video to -Events: Recycling Video Datasets for Event Cameras                                          |              |
+|               | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                                             |              |
+| T-CG 2021     | Event Based, Near-Eye Gaze Tracking Beyond 10,000Hz                                                   | Eye Tracking |
+| IEEE 2021     | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                                             |              |
+| CVPR 2019     | CED: Color Event Camera Dataset                                                                       | First Color  |
+| CVPR 2019     | DHP19: Dynamic Vision Sensor 3D Human Pose Dataset                                                    |              |
+| IEEE 2018     | The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception               |              |
+| CVPR 2018     | Hats: Histograms of averaged time surfaces for robust event-based object classiﬁcation                | N-Cars       |
+| Neurosci 2015 | Converting static image datasets to spiking neuromorphic datasets using saccades                      | Caltech101   |
+| IROS 2016     | The event-camera dataset and simulator: Event-based data for pose estimation,visual odometry,and slam | DVS 260      |
 
 ## Simulation
 | Publication | Title                                                       | Highlight |
