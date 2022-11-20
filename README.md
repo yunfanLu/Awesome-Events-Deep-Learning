@@ -68,9 +68,9 @@
 
 ## 1.1 Event Count Image
 
-| Publication | Title                                                                                          | Highlight                |
-| ----------- | ---------------------------------------------------------------------------------------------- | ------------------------ |
-| IJCV 2021   | Learning to Reconstruct HDR Images from Events, with Applications to Depth and Flow Prediction | Fixed amount of stacking |
+| Publication | Title                                                                                          | Highlight                                                                      |
+| ----------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| IJCV 2021   | Learning to Reconstruct HDR Images from Events, with Applications to Depth and Flow Prediction | stacking based on time (SBT) and stacking based on the number of events (SBN). |
 ## 1.2 Event Voxel Grids
 
 | Publication | Title                                                                                                  | Highlight |
