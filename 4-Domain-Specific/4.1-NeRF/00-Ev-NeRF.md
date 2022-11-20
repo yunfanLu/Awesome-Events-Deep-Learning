@@ -1,4 +1,4 @@
-# EventNeRF: Neural Radiance Fields from a Single Colour Event Camera
+# Et-NeRF: Event Based Neural Radiance Field
 
 Arxiv 2022
 
