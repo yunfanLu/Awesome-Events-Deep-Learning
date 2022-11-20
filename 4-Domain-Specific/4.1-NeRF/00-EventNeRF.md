@@ -2,10 +2,16 @@
 
 Arxiv 2022
 
-## Research Question:
-	Whether an event stream from a DVS moving around the scene is sufficient to reconstruct a 3D representation of a static scene?
+## Obeservation:
+	We find that the multi-view consistency of NeRF provides a powerful self-supervision signal for eliminating the spurious measurements and extracting the consistent underlying structure despite highly noisy input.
 
-
-## Motivation:
-(1)	Event camera instead of an RGB camera have several merits, including its ability to handle strong motion blur that exist in RGB images and could cause several RGB-based computer vision methods to fail. 
-(2)	Event cameras do not suffer from motion blur and have already brought valuable contributions in the important and long-standing problems of hand and body tracking in this regard.
+## Highlights:
+(1) Instead of posed images of the original NeRF, the input to Ev-NeRF is the event measurements accompanied by the movements of the sensors.
+(2) Ev-NeRF properly handles the complex noise in event cameras withhout ground truth supervision, and at the same time, enjoys the technical advantages of the sensor over conventional cameras.
+(3) The generated neural volume can also produce intensity images from novel views with reasonable depth estimates.
+	
+## Contributions:
+(1) Ev-NeRF: Combination of the popular NeRF formulation with the raw event output of a neuromorphic camera for the first time (claimed)
+(2) Ev-NeRF is higly robust to event noise and provide high-quality obervations.
+(3) Intensity image reconstruction: novel-view image synthesis, 3D reconstruction and HDR imaging
+(4) Performance comparable to many existing event-vision algorithms 
