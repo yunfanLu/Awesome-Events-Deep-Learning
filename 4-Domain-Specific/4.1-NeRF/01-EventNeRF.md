@@ -4,6 +4,7 @@ Arxiv 2022
 
 ## Research Question:
 	Whether an event stream from a DVS moving around the scene is sufficient to reconstruct a 3D representation of a static scent, e.g., NeRF.
+	Are multi-view RGB images strictly necessary to produce a 3D scene representation allowing redering the target scene from novel views in the RGB images?
 
 ## Highlights:
 (1) We demonstrate NERF estimation from a single clour event camera in scenarios that would not be conveivable with an RGB camera (e.g., with high speed movements, motion blur or insufficient lighting).
