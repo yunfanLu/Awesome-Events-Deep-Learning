@@ -23,7 +23,9 @@
   - [1.0 Event Streaming](#10-event-streaming)
   - [1.1 Event Count Image](#11-event-count-image)
   - [1.2 Event Voxel Grids](#12-event-voxel-grids)
-  - [1.3 Event Frame](#13-event-frame)
+  - [1.3 Surface of Active Event (SAE)](#13-surface-of-active-event-sae)
+  - [1.4 Histograms of Averaged Time Surfaces (HATS)](#14-histograms-of-averaged-time-surfaces-hats)
+  - [Open Sources Projects](#open-sources-projects)
 - [2 Event Only](#2-event-only)
   - [2.1 Image / Video Reconstruction](#21-image--video-reconstruction)
     - [(1) Reconstruction and SR](#1-reconstruction-and-sr)
@@ -75,9 +77,25 @@
 | NC 2019     | Asynchronous Event-Based Motion Processing: From Visual Events to Probabilistic Sensory Representation |           |
 
 
+## 1.3 Surface of Active Event (SAE)
 
-## 1.3 Event Frame
 
+| Publication | Title                                                                          | Highlight  |
+| ----------- | ------------------------------------------------------------------------------ | ---------- |
+| T-RAL 2020  | Efﬁcient Spatial-Temporal Normalization of SAE Representation for Event Camera |            |
+| T-NLL 2014  | The event-based visual ﬂow                                                     | First work |
+
+## 1.4 Histograms of Averaged Time Surfaces (HATS)
+| Publication | Title                                                                                  | Highlight  |
+| ----------- | -------------------------------------------------------------------------------------- | ---------- |
+| CVPR 2018   | Hats: Histograms of averaged time surfaces for robust event-based object classiﬁcation | First Work |
+
+
+## Open Sources Projects
+
+| Project | URL                              | Description                                                        |
+| ------- | -------------------------------- | ------------------------------------------------------------------ |
+| Chain   | https://github.com/eleboss/chain | The effect about different representation for event classification |
 
 # 2 Event Only
 
