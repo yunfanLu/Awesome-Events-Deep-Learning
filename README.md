@@ -80,18 +80,22 @@
 ## 1.3 Surface of Active Event (SAE)
 
 
-| Publication | Title                                                                                                                   | Highlight      |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------- | -------------- |
-| T-RAL 2020  | Efﬁcient Spatial-Temporal Normalization of SAE Representation for Event Camera                                          |                |
-| T-NLL 2014  | The event-based visual ﬂow                                                                                              | First work     |
-| T-PAMI 2017 | Hots: A hierarchy of event-based time-surfaces for pattern recognition                                                  | Time-surfaces  |
-|             | Investigation of event-based surfaces for high-speed detection, unsupervised feature extraction, and object recognition | Time-surfaces  |
-| ISACS 2019  | N-HAR: A neuromorphic event-based human activity recognition system using memory surfaces                               | Memory Surface |
+| Publication             | Title                                                                                                                   | Highlight                                            |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| T-RAL 2020              | efficient Spatial-Temporal Normalization of SAE Representation for Event Camera                                          |                                                      |
+| CVPR 2019               | Speed invariant time surface for learning to detect corner points with event-based cameras                              | Speed Invariant Time Surface + SAE                   |
+| ISACS 2019              | N-HAR: A neuromorphic event-based human activity recognition system using memory surfaces                               | Memory Surface                                       |
+| Neurosci 2019           | Investigation of event-based surfaces for high-speed detection, unsupervised feature extraction, and object recognition | Time-Window Normalization + SAE, Time-surfaces       |
+| 3DV 2018                | ACE: An efficient asynchronous corner tracker for event cameras                                                          | Min-Max Normalization + SAE                          |
+| 3DV 2018                | ACE: An efficient asynchronous corner tracker for event cameras                                                          | Sort Normalization + SAE                             |
+| T-PAMI 2017             | Hots: A hierarchy of event-based time-surfaces for pattern recognition                                                  | Exponential Decay Normalization + SAE, Time-surfaces |
+| Ph.D. dissertation 2016 | Event-based feature detection, recognition and classification                                                           | Exponential Decay Normalization + SAE, Time-surfaces |
+| T-NLL 2014              | The event-based visual ﬂow                                                                                              | First work                                           |
 
 ## 1.4 Histograms of Averaged Time Surfaces (HATS)
 | Publication | Title                                                                                  | Highlight  |
 | ----------- | -------------------------------------------------------------------------------------- | ---------- |
-| CVPR 2018   | Hats: Histograms of averaged time surfaces for robust event-based object classiﬁcation | First Work |
+| CVPR 2018   | Hats: Histograms of averaged time surfaces for robust event-based object classification | First Work |
 
 
 ## Open Sources Projects
@@ -417,7 +421,7 @@
 | CVPR 2019     | CED: Color Event Camera Dataset                                                                       | First Color  |
 | CVPR 2019     | DHP19: Dynamic Vision Sensor 3D Human Pose Dataset                                                    |              |
 | IEEE 2018     | The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception               |              |
-| CVPR 2018     | Hats: Histograms of averaged time surfaces for robust event-based object classiﬁcation                | N-Cars       |
+| CVPR 2018     | Hats: Histograms of averaged time surfaces for robust event-based object classification                | N-Cars       |
 | Neurosci 2015 | Converting static image datasets to spiking neuromorphic datasets using saccades                      | Caltech101   |
 | IROS 2016     | The event-camera dataset and simulator: Event-based data for pose estimation,visual odometry,and slam | DVS 260      |
 
