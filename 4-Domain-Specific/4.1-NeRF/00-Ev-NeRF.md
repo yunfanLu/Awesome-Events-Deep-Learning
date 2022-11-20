@@ -20,3 +20,7 @@ Arxiv 2022
 (3) Intensity image reconstruction: novel-view image synthesis, 3D reconstruction and HDR imaging
 
 (4) Performance comparable to many existing event-vision algorithms 
+
+## Experiemnts:
+(1) Noise Reduction / HDR Image Reconstruction / Intensity Image Reconstruction / Novel View Synthesis / 3D Sturcture Estimation
+(2) Generate images or depth estimates in a novel view
