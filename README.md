@@ -171,7 +171,7 @@
 
 
 
-## 2.3 Classifications
+## 2.3 Classification
 
 
 | Publication | Title                                                                            | Highlight |
