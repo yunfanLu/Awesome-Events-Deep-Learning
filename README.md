@@ -30,7 +30,7 @@
   - [2.1 Image / Video Reconstruction](#21-image--video-reconstruction)
     - [(1) Reconstruction and SR](#1-reconstruction-and-sr)
   - [2.2 Optical Flow Estimation](#22-optical-flow-estimation)
-  - [2.3 Classifications](#23-classifications)
+  - [2.3 Classification](#23-classification)
   - [2.4 Detection](#24-detection)
   - [2.5 Segmentation](#25-segmentation)
 - [3 Event + RGB](#3-event--rgb)
@@ -80,15 +80,22 @@
 ## 1.3 Surface of Active Event (SAE)
 
 
-| Publication | Title                                                                          | Highlight  |
-| ----------- | ------------------------------------------------------------------------------ | ---------- |
-| T-RAL 2020  | Efﬁcient Spatial-Temporal Normalization of SAE Representation for Event Camera |            |
-| T-NLL 2014  | The event-based visual ﬂow                                                     | First work |
+| Publication             | Title                                                                                                                   | Highlight                                            |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| T-RAL 2020              | efficient Spatial-Temporal Normalization of SAE Representation for Event Camera                                          |                                                      |
+| CVPR 2019               | Speed invariant time surface for learning to detect corner points with event-based cameras                              | Speed Invariant Time Surface + SAE                   |
+| ISACS 2019              | N-HAR: A neuromorphic event-based human activity recognition system using memory surfaces                               | Memory Surface                                       |
+| Neurosci 2019           | Investigation of event-based surfaces for high-speed detection, unsupervised feature extraction, and object recognition | Time-Window Normalization + SAE, Time-surfaces       |
+| 3DV 2018                | ACE: An efficient asynchronous corner tracker for event cameras                                                          | Min-Max Normalization + SAE                          |
+| 3DV 2018                | ACE: An efficient asynchronous corner tracker for event cameras                                                          | Sort Normalization + SAE                             |
+| T-PAMI 2017             | Hots: A hierarchy of event-based time-surfaces for pattern recognition                                                  | Exponential Decay Normalization + SAE, Time-surfaces |
+| Ph.D. dissertation 2016 | Event-based feature detection, recognition and classification                                                           | Exponential Decay Normalization + SAE, Time-surfaces |
+| T-NLL 2014              | The event-based visual ﬂow                                                                                              | First work                                           |
 
 ## 1.4 Histograms of Averaged Time Surfaces (HATS)
 | Publication | Title                                                                                  | Highlight  |
 | ----------- | -------------------------------------------------------------------------------------- | ---------- |
-| CVPR 2018   | Hats: Histograms of averaged time surfaces for robust event-based object classiﬁcation | First Work |
+| CVPR 2018   | Hats: Histograms of averaged time surfaces for robust event-based object classification | First Work |
 
 
 ## Open Sources Projects
@@ -171,7 +178,18 @@
 
 
 
-## 2.3 Classifications
+## 2.3 Classification
+
+
+| Publication | Title                                                                            | Highlight |
+| ----------- | -------------------------------------------------------------------------------- | --------- |
+| CVPR 2022   | Ev-TTA: Test-Time Adaptation for Event-Based Object Recognition                  |           |
+| CVPR 2022   | AEGNN: Asynchronous Event-based Graph Neural Networks                            |           |
+| CVPR 2022   | A Voxel Graph CNN for Object Classification with Event Cameras                   |           |
+| ICCV 2021   | Graph-based Asynchronous Event Processing for Rapid Object Recognition           |           |
+| ICCV 2021   | N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras   |           |
+| ICCV 2021   | Temporal-wise Attention Spiking Neural Networks for Event Streams Classification |           |
+
 
 ## 2.4 Detection
 | Publication | Title                                                                                                             | Highlight |
@@ -291,6 +309,8 @@
 | Publication | Title                                                               | Highlight |
 | ----------- | ------------------------------------------------------------------- | --------- |
 | Arxiv 2022  | EventNeRF: Neural Radiance Fields from a Single Colour Event Camera |           |
+| Arxiv 2022  | Ev-NeRF: Event Based Neural Radiance Field                          |           |
+| Arxiv 2022  | E-NeRF: Neural Radiance Fields from a Moving Event Camera           |           |
 
 ## 4.2 Human Pose and Shape
 
@@ -392,15 +412,18 @@
 
 ## Event Dataset
 
-| Publication | Title                                                                                   | Highlight    |
-| ----------- | --------------------------------------------------------------------------------------- | ------------ |
-| CVPR 2022   | Video to -Events: Recycling Video Datasets for Event Cameras                            |              |
-|             | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                               |              |
-| T-CG 2021   | Event Based, Near-Eye Gaze Tracking Beyond 10,000Hz                                     | Eye Tracking |
-| IEEE 2021   | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                               |              |
-| CVPR 2019   | CED: Color Event Camera Dataset                                                         | First Color  |
-| CVPR 2019   | DHP19: Dynamic Vision Sensor 3D Human Pose Dataset                                      |              |
-| IEEE 2018   | The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception |              |
+| Publication   | Title                                                                                                 | Highlight    |
+| ------------- | ----------------------------------------------------------------------------------------------------- | ------------ |
+| CVPR 2022     | Video to -Events: Recycling Video Datasets for Event Cameras                                          |              |
+|               | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                                             |              |
+| T-CG 2021     | Event Based, Near-Eye Gaze Tracking Beyond 10,000Hz                                                   | Eye Tracking |
+| IEEE 2021     | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                                             |              |
+| CVPR 2019     | CED: Color Event Camera Dataset                                                                       | First Color  |
+| CVPR 2019     | DHP19: Dynamic Vision Sensor 3D Human Pose Dataset                                                    |              |
+| IEEE 2018     | The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception               |              |
+| CVPR 2018     | Hats: Histograms of averaged time surfaces for robust event-based object classification                | N-Cars       |
+| Neurosci 2015 | Converting static image datasets to spiking neuromorphic datasets using saccades                      | Caltech101   |
+| IROS 2016     | The event-camera dataset and simulator: Event-based data for pose estimation,visual odometry,and slam | DVS 260      |
 
 ## Simulation
 | Publication | Title                                                       | Highlight |
