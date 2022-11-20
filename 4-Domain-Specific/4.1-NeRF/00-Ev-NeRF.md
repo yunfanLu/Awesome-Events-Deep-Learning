@@ -22,5 +22,5 @@ Arxiv 2022
 (4) Performance comparable to many existing event-vision algorithms 
 
 ## Experiemnts:
-(1) Noise Reduction / HDR Image Reconstruction / Intensity Image Reconstruction / Novel View Synthesis / 3D Sturcture Estimation
-(2) Generate images or depth estimates in a novel view
+Noise Reduction / HDR Image Reconstruction / Intensity Image Reconstruction / Novel View Synthesis / 3D Sturcture Estimation
+
