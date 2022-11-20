@@ -1,4 +1,4 @@
-# Et-NeRF: Event Based Neural Radiance Field
+# Ev-NeRF: Event Based Neural Radiance Field
 
 Arxiv 2022
 
