@@ -71,12 +71,15 @@
 | Publication | Title                                                                                          | Highlight                                                                      |
 | ----------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | IJCV 2021   | Learning to Reconstruct HDR Images from Events, with Applications to Depth and Flow Prediction | stacking based on time (SBT) and stacking based on the number of events (SBN). |
+| IROS 2018   | The multi vehicle stereo event camera dataset: An event camera dataset for 3D perception       | Per polarity sum                                                               |
 ## 1.2 Event Voxel Grids
 
 | Publication | Title                                                                                                  | Highlight |
 | ----------- | ------------------------------------------------------------------------------------------------------ | --------- |
 | T-PAMA 2020 | Time-Ordered Recent Event (TORE) Volumes for Event Cameras                                             |           |
 | NC 2019     | Asynchronous Event-Based Motion Processing: From Visual Events to Probabilistic Sensory Representation |           |
+| ICCV 2019   | Unsupervised event-based learning of optical ﬂow, depth, and egomotion                                 |           |
+| CVPR 2019   | Eventsto-video: Bringing modern computer vision to event cameras                                       |           |
 
 
 ## 1.3 Surface of Active Event (SAE)
