@@ -30,7 +30,7 @@
   - [2.1 Image / Video Reconstruction](#21-image--video-reconstruction)
     - [(1) Reconstruction and SR](#1-reconstruction-and-sr)
   - [2.2 Optical Flow Estimation](#22-optical-flow-estimation)
-  - [2.3 Classifications](#23-classifications)
+  - [2.3 Classification](#23-classification)
   - [2.4 Detection](#24-detection)
   - [2.5 Segmentation](#25-segmentation)
 - [3 Event + RGB](#3-event--rgb)
@@ -305,6 +305,8 @@
 | Publication | Title                                                               | Highlight |
 | ----------- | ------------------------------------------------------------------- | --------- |
 | Arxiv 2022  | EventNeRF: Neural Radiance Fields from a Single Colour Event Camera |           |
+| Arxiv 2022  | Ev-NeRF: Event Based Neural Radiance Field                          |           |
+| Arxiv 2022  | E-NeRF: Neural Radiance Fields from a Moving Event Camera           |           |
 
 ## 4.2 Human Pose and Shape
 
