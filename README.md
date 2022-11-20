@@ -144,12 +144,6 @@
 
 | Publication | Title                                                                                                                               | Highlight |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| 3DV  2021   | E-RAFT: Dense Optical Flow from Event Cameras                                                                                       |           |
-| CVPR 2020   | Single Image Optical Flow Estimation With an Event Camera                                                                           |           |
-| CVPR 2019   | Unsupervised Event-Based Learning of Optical Flow, Depth, and Egomotion                                                             |           |
-| ICCV 2019   | End-to-End Learning of Representations for Asynchronous Event-Based Data                                                            |           |
-| IEEE 2017   | Event-based real-time optical flow estimation                                                                                       |           |
-| CVPR 2016   | Simultaneous Optical Flow and Intensity Estimation From an Event Camera                                                             |           |
 | CVPR 2021   | Spike Timing-Based Unsupervised Learning of Orientation, Disparity, and Motion Representations in a Spiking Neural Network          |           |
 | Arxiv 2021  | Formulating Event-based Image Reconstruction as a Linear Inverse Problem using Optical Flow                                         |           |
 | ECCV 2020   | Jointly learning visual motion and confidence from local patches in event cameras                                                   |           |
@@ -162,7 +156,6 @@
 | IROS 2020   | Unsupervised Learning of Dense Optical Flow, Depth and Egomotion with Event-Based Sensors                                           |           |
 | CVPR 2020   | Single Image Optical Flow Estimation With an Event Camera                                                                           |           |
 | T-PAMI 2019 | Unsupervised Learning of a Hierarchical Spiking Neural Network for Optical Flow Estimation: From Events to Global Motion Perception |           |
-| ICCV 2019   | End-to-End Learning of Representations for Asynchronous Event-Based Data                                                            |           |
 | CVPR 2019   | Unsupervised Event-Based Learning of Optical Flow, Depth, and Egomotion                                                             |           |
 | CVPR 2019   | Secrets of Event-based Optical Flow                                                                                                 |           |
 | CVPR 2019   | Event-Based Motion Segmentation by Motion Compensation                                                                              |           |
