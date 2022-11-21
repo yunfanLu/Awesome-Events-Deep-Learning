@@ -17,11 +17,13 @@ from events in an end-to-end manner?**
 3) They utilize the internal memory state of recurrent neural network to reconstruct different regions with rich details in a continuous manner as the state is updated internally by each incoming stack
 
 # Motivation
+
 1) The stream-like representation of events is sparse in spatial domain and needs preparation to capture scene details to be reconstructed by a convolutional neural network.
 2) An unwanted downside of stacking the event stream is losing temporal relation between the stacks. The lost temporal relation between stacks can be partially recovered by using
 a sequence of the stacks and the optical flow between each pair of stacks as the optical flow reports how the triggered events in the scene have moved and in which location the changes have happened.
 
 # Weaknesses
+
 1) The proposed Similarity Loss make less sense for the performance of the model.
 2) The three streams in the proposed framework just connect with the near streams.
 3) The method needs to use the APS to supervise the framework.
