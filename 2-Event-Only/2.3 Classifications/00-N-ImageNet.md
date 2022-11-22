@@ -22,7 +22,7 @@ The former suffers from a lack of number of labels and difficulty to acquire fin
 
 (2) Nine validation datasets to test the robustness of event-based object recognition algorithms amidst changes in **motion** or **illumination**.
 
-(2) DiST (Discounted Sorted Timestamp Image), an event camera representation exhibiting enhanced robustness in diverse environment changes.
+(3) DiST (Discounted Sorted Timestamp Image), an event camera representation exhibiting enhanced robustness in diverse environment changes.
 
 
 
