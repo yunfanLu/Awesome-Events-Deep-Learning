@@ -449,7 +449,7 @@
 
 | Publication   | Title                                                                                                 | Highlight    |
 | ------------- | ----------------------------------------------------------------------------------------------------- | ------------ |
-| IEEE RAL 2022 | VECtor: A Versatile Event-Centric Benchmark for Multi-Sensor SLAM                                     |              |
+| IEEE RAL 2022 | VECtor: A Versatile Event-Centric Benchmark for Multi-Sensor SLAM                                     | multi-sensor |
 | CVPR 2022     | Video to -Events: Recycling Video Datasets for Event Cameras                                          |              |
 |               | DSEC: A Stereo Event Camera Dataset for Driving Scenarios                                             |              |
 | T-CG 2021     | Event Based, Near-Eye Gaze Tracking Beyond 10,000Hz                                                   | Eye Tracking |
