@@ -25,6 +25,13 @@
   - [1.2 Event Voxel Grids](#12-event-voxel-grids)
   - [1.3 Surface of Active Event (SAE)](#13-surface-of-active-event-sae)
   - [1.4 Histograms of Averaged Time Surfaces (HATS)](#14-histograms-of-averaged-time-surfaces-hats)
+  - [1.5 MatrixLSTM](#15-matrixlstm)
+  - [1.6 Event Spike Tensor](#16-event-spike-tensor)
+  - [1.7 Binary Event Image](#17-binary-event-image)
+  - [1.8 Event Histogram](#18-event-histogram)
+  - [1.9 Event Image](#19-event-image)
+  - [1.10 Timestamp Image](#110-timestamp-image)
+  - [1.11 DiT & DiSR](#111-dit--disr)
   - [Open Sources Projects](#open-sources-projects)
 - [2 Event Only](#2-event-only)
   - [2.1 Image / Video Reconstruction](#21-image--video-reconstruction)
@@ -67,13 +74,11 @@
 ## 1.0 Event Streaming
 
 ## 1.1 Event Count Image
-
 | Publication | Title                                                                                          | Highlight                                                                      |
 | ----------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | IJCV 2021   | Learning to Reconstruct HDR Images from Events, with Applications to Depth and Flow Prediction | stacking based on time (SBT) and stacking based on the number of events (SBN). |
 | IROS 2018   | The multi vehicle stereo event camera dataset: An event camera dataset for 3D perception       | Per polarity sum                                                               |
 ## 1.2 Event Voxel Grids
-
 | Publication | Title                                                                                                  | Highlight |
 | ----------- | ------------------------------------------------------------------------------------------------------ | --------- |
 | T-PAMA 2020 | Time-Ordered Recent Event (TORE) Volumes for Event Cameras                                             |           |
@@ -83,25 +88,57 @@
 
 
 ## 1.3 Surface of Active Event (SAE)
-
-
-| Publication             | Title                                                                                                                   | Highlight                                            |
-| ----------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| T-RAL 2020              | Efficient Spatial-Temporal Normalization of SAE Representation for Event Camera                                         |                                                      |
-| CVPR 2019               | Speed invariant time surface for learning to detect corner points with event-based cameras                              | Speed Invariant Time Surface + SAE                   |
-| ISACS 2019              | N-HAR: A neuromorphic event-based human activity recognition system using memory surfaces                               | Memory Surface                                       |
-| Neurosci 2019           | Investigation of event-based surfaces for high-speed detection, unsupervised feature extraction, and object recognition | Time-Window Normalization + SAE, Time-surfaces       |
-| 3DV 2018                | ACE: An efficient asynchronous corner tracker for event cameras                                                         | Min-Max Normalization + SAE                          |
-| 3DV 2018                | ACE: An efficient asynchronous corner tracker for event cameras                                                         | Sort Normalization + SAE                             |
-| T-PAMI 2017             | Hots: A hierarchy of event-based time-surfaces for pattern recognition                                                  | Exponential Decay Normalization + SAE, Time-surfaces |
-| Ph.D. dissertation 2016 | Event-based feature detection, recognition and classification                                                           | Exponential Decay Normalization + SAE, Time-surfaces |
-| T-NLL 2014              | The event-based visual ﬂow                                                                                              | First work                                           |
+| Publication             | Title                                                                                                                   | Highlight                                                                              |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| T-RAL 2020              | Efficient Spatial-Temporal Normalization of SAE Representation for Event Camera                                         |                                                                                        |
+| CVPR 2019               | Speed invariant time surface for learning to detect corner points with event-based cameras                              | Speed Invariant Time Surface + SAE                                                     |
+| ISACS 2019              | N-HAR: A neuromorphic event-based human activity recognition system using memory surfaces                               | Memory Surface                                                                         |
+| Neurosci 2019           | Investigation of event-based surfaces for high-speed detection, unsupervised feature extraction, and object recognition | Time-Window Normalization + SAE, Time-surfaces                                         |
+| 3DV 2018                | ACE: An efficient asynchronous corner tracker for event cameras                                                         | Sort Normalization + SAE, Min-Max Normalization + SAE                                  |
+| T-PAMI 2017             | Hots: A hierarchy of event-based time-surfaces for pattern recognition                                                  | Exponential Decay Normalization + SAE, Time-surfaces, Exponential of newest timestamps |
+| Ph.D. dissertation 2016 | Event-based feature detection, recognition and classification                                                           | Exponential Decay Normalization + SAE, Time-surfaces                                   |
+| T-NLL 2014              | The event-based visual ﬂow                                                                                              | First work                                                                             |
 
 ## 1.4 Histograms of Averaged Time Surfaces (HATS)
-| Publication | Title                                                                                   | Highlight  |
-| ----------- | --------------------------------------------------------------------------------------- | ---------- |
-| CVPR 2018   | Hats: Histograms of averaged time surfaces for robust event-based object classification | First Work |
+| Publication | Title                                                                                   | Highlight                                |
+| ----------- | --------------------------------------------------------------------------------------- | ---------------------------------------- |
+| CVPR 2018   | Hats: Histograms of averaged time surfaces for robust event-based object classification | First Work, Aggregated newest timestamps |
 
+## 1.5 MatrixLSTM
+| Publication | Title                                                                | Highlight         |
+| ----------- | -------------------------------------------------------------------- | ----------------- |
+| ECCV 2020   | A differentiable recurrent surface for asynchronous event-based data | Learned with LSTM |
+
+## 1.6 Event Spike Tensor
+| Publication | Title                                                                    | Highlight        |
+| ----------- | ------------------------------------------------------------------------ | ---------------- |
+| ICCV 2019   | End-to-end learning of representations for asynchronous event-based data | Learned with MLP |
+
+## 1.7 Binary Event Image
+| Publication | Title                                                                  | Highlight                 |
+| ----------- | ---------------------------------------------------------------------- | ------------------------- |
+| T-NNLS 2018 | Spatial and temporal downsampling in event-based visual classification | Binarized event occurence |
+
+## 1.8 Event Histogram
+| Publication | Title                                                                                | Highlight    |
+| ----------- | ------------------------------------------------------------------------------------ | ------------ |
+| CVPR 2018   | Event-based vision meets deep learning on steering prediction for self-driving cars. | Event counts |
+
+## 1.9 Event Image
+| Publication | Title                                                            | Highlight                          |
+| ----------- | ---------------------------------------------------------------- | ---------------------------------- |
+| CVPR 2019   | Event-based robust gait recognition using dynamic vision sensors | Event counts and newest timestamps |
+
+## 1.10 Timestamp Image
+
+| Publication | Title                                                                                                         | Highlight         |
+| ----------- | ------------------------------------------------------------------------------------------------------------- | ----------------- |
+| ICIP 2020   | Performance improvement of deep learning based gesture recognition using spatiotemporal demosaicing technique | Newest timestamps |
+
+## 1.11 DiT & DiSR
+| Publication | Title                                                                          | Highlight         |
+| ----------- | ------------------------------------------------------------------------------ | ----------------- |
+| ICCV 2021   | N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras | Dataset Image Net |
 
 ## Open Sources Projects
 
