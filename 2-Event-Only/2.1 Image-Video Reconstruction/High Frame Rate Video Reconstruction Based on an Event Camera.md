@@ -16,6 +16,7 @@ blurred) and their corresponding events.
 3) The frame rate of their reconstructed video can theoretically be as high as the event rate (200 times greater than the original frame rate in our experiment).
 
 # Motivation
+
 1) Event-only solutions , where the results tend to lack the texture and consistency of natural videos (especially for scenes with a static
 background or a slowly moving background/foreground), as they fail to use the complementary information contained in low frame rate intensity images.
 2) As the previous model is based on a single image, noise from the event data can easily degrade the quality of reconstructed videos, especially at transitions between images.
@@ -26,5 +27,6 @@ background or a slowly moving background/foreground), as they fail to use the co
 2) LU Decomposition
 
 # Weaknesses
+
 1) Extreme lighting changes, such as suddenly turning on/off the light, moving from dark indoor scenes to outdoor scenes. The relatively low dynamic range of the intensity image might degrade the performance of our method in high dynamic scenes;
 2) Event error accumulation, such as noisy event data, small object motions with fewer events. Though they integrate over small-time intervals from the centre of the exposure time to mitigate this error, accumulated noise can reduce the quality of reconstructed images.
