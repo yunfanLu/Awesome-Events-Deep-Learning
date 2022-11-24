@@ -362,6 +362,7 @@
 | CVPR  2018  | A Low Power, High Throughput, Fully Event-Based Stereo System                             |           |
 | ICCV  2019  | Learning an Event Sequence Embedding for Dense Event-Based Deep Stereo                    |           |
 | CVPRW  2021 | Differentiable Event Stream Simulator for Non-Rigid 3D Trackin                            |           |
+| CVPRW  2019 | Dhp19: Dynamic vision sensor 3d human pose dataset                                        |           |
 
 ## 4.2 Human Pose and Shape
 
