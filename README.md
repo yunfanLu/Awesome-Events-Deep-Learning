@@ -360,6 +360,7 @@
 | ECCV  2020  | Stereo Event-Based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction         |           |
 | ICCV  2021  | EventHPE: Event-Based 3D Human Pose and Shape Estimation                                  |           |
 | CVPR  2018  | A Low Power, High Throughput, Fully Event-Based Stereo System                             |           |
+| ICCV  2019  | Learning an Event Sequence Embedding for Dense Event-Based Deep Stereo                    |           |
 
 ## 4.2 Human Pose and Shape
 
