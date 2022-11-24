@@ -361,6 +361,7 @@
 | ICCV  2021  | EventHPE: Event-Based 3D Human Pose and Shape Estimation                                  |           |
 | CVPR  2018  | A Low Power, High Throughput, Fully Event-Based Stereo System                             |           |
 | ICCV  2019  | Learning an Event Sequence Embedding for Dense Event-Based Deep Stereo                    |           |
+| CVPRW  2021 | Differentiable Event Stream Simulator for Non-Rigid 3D Trackin                            |           |
 
 ## 4.2 Human Pose and Shape
 
