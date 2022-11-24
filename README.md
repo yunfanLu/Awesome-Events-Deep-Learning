@@ -31,7 +31,7 @@
   - [1.8 Event Histogram](#18-event-histogram)
   - [1.9 Event Image](#19-event-image)
   - [1.10 Timestamp Image](#110-timestamp-image)
-  - [1.11 DiT & DiSR](#111-dit--disr)
+  - [1.11 DiT \& DiSR](#111-dit--disr)
   - [Open Sources Projects](#open-sources-projects)
 - [2 Event Only](#2-event-only)
   - [2.1 Image / Video Reconstruction](#21-image--video-reconstruction)
@@ -400,11 +400,15 @@
 
 | Publication | Title                                                                                      | Highlight |
 | ----------- | ------------------------------------------------------------------------------------------ | --------- |
+| PAMI 2021   | luvHarris: A Practical Corner Detector for Event-Cameras                                   |           |
+| ECCV 2020   | Stereo Event-based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction          |           |
 | CVPR-W 2019 | Fast Event-based Corner Detection                                                          |           |
+| IROS 2019   | Fa-harris: A fast and asynchronous corner detector for event cameras                       |           |
 | CVPR-W 2019 | Speed Invariant Time Surface for Learning to Detect Corner Points with Event-Based Cameras |           |
+| T-RAL 2018  | Asynchronous corner detection and tracking for event cameras in real time                  |           |
+| 3DV 2018    | ACE: An efficient asynchronous corner tracker for event cameras                            |           |
 |             | Object tracking on event cameras with offline–online learning                              |           |
 |             | Real-Time Face & Eye Tracking and Blink Detection using Event Cameras                      |           |
-| ECCV 2020   | Stereo Event-based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction          |           |
 | ISFV 2014   | Large-scale Particle Tracking with Dynamic Vision Sensors                                  |           |
 
 
