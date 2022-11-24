@@ -224,7 +224,8 @@
 | ICCV 2021   | Graph-based Asynchronous Event Processing for Rapid Object Recognition           |           |
 | ICCV 2021   | N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras   |           |
 | ICCV 2021   | Temporal-wise Attention Spiking Neural Networks for Event Streams Classification |           |
-
+| ECCV 2020   | Event-based Asynchronous Sparse Convolutional Networks  |      |
+| ICCV 2019  | End-to-End Learning of Representations for Asynchronous Event-Based Data |    |
 
 ## 2.4 Detection
 | Publication | Title                                                                                                             | Highlight |
