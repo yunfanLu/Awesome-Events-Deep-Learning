@@ -2,12 +2,15 @@
 
 ECCV 2022
 
-## Research Question:
+## Foundation:
     3D reconstruction is feasible using events lies in the information contained in the occluding contours and in the continuous scene acquisition with events.
     
-## Task
+## Research Question:
 	Directly predicts a mesh from a continuous stream of events assuming known camera trajectory from a calibrated camera.
-	
+
+## Motivation:
+	3D reconstruction from event-cameras, motivated by the advantagesof event-based cameras in terms of low power and latency as well as by still perceive well 3D shape.
+
 ## Contributions:
 (1) Introduce a novel event concept of Apparent Contour Events that relates high-speed events to the tangent rays of the 3D surface to the view-point.
 
