@@ -3,7 +3,7 @@
 ECCV 2022
 
 ## Research Question:
-    	3D reconstruction is feasible using events lies in the information contained in the occluding contours and in the continuous scene acquisition with events.
+    3D reconstruction is feasible using events lies in the information contained in the occluding contours and in the continuous scene acquisition with events.
     
 ## Task
 	Directly predicts a mesh from a continuous stream of events assuming known camera trajectory from a calibrated camera.
