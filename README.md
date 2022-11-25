@@ -342,13 +342,14 @@
 # 4 Domain Specific
 
 
-## 4.1 NeRF & 3D reconstruction (To be discussed)
+## 4.1 NeRF & 3D reconstruction 
 
 | Publication | Title                                                                                     | Highlight |
 | ----------- | ----------------------------------------------------------------------------------------  | --------- |
 | Arxiv 2022  | EventNeRF: Neural Radiance Fields from a Single Colour Event Camera                       |           |
 | Arxiv 2022  | Ev-NeRF: Event Based Neural Radiance Field                                                |           |
 | Arxiv 2022  | E-NeRF: Neural Radiance Fields from a Moving Event Camera                                 |           |
+| ECCV  2022  | EvAC3D: From Event-based Apparent Contours to 3D Models via Continuous Visual Hulls       |           |
 | ECCV  2016  | Real-Time 3D Reconstruction and 6-DoF Tracking with an Event Camera                       |           |
 | Arxiv 2020  | E3D: Event-Based 3D Shape Reconstruction                                                  |           |
 | ICAR  2019  | Multi-View 3D Reconstruction with Self-Organizing Maps on Event-Based Data                |           |
