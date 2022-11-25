@@ -350,14 +350,13 @@
 | Arxiv 2022  | Ev-NeRF: Event Based Neural Radiance Field                                                |           |
 | Arxiv 2022  | E-NeRF: Neural Radiance Fields from a Moving Event Camera                                 |           |
 | ECCV  2022  | EvAC3D: From Event-based Apparent Contours to 3D Models via Continuous Visual Hulls       |           |
-| ECCV  2016  | Real-Time 3D Reconstruction and 6-DoF Tracking with an Event Camera                       |           |
 | Arxiv 2020  | E3D: Event-Based 3D Shape Reconstruction                                                  |           |
+| ECCV  2016  | Real-Time 3D Reconstruction and 6-DoF Tracking with an Event Camera                       |           |
 | ICAR  2019  | Multi-View 3D Reconstruction with Self-Organizing Maps on Event-Based Data                |           |
 | Arxiv 2022  | Event-Based Dense Reconstruction Pipeline                                                 |           |
 | Arxiv 2022  | Event-based Non-Rigid Reconstruction from Contours                                        |           |
 | IJCV  2018  | Real-Time Intensity-Image Reconstruction for Event Cameras Using Manifold Regularisation  |           |
 | IJCV  2018  | EMVS: Event-Based Multi-View Stereo—3D Reconstruction with an Event Camera in Real-Time   |           |
-| ECCV  2018  | EvAC3D: From Event-Based Apparent Contours to 3D Models via Continuous Visual Hulls       |           |
 | IEEE  2021  | Event-Based Stereo Visual Odometry                                                        |           |
 | 3DV   2021  | ESL: Event-based Structured Light                                                         |           |
 | ECCV  2020  | Stereo Event-Based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction         |           |
