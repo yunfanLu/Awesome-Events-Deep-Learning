@@ -57,6 +57,6 @@ UNet-like convolutional neural network to learn the mapping from frames to event
 4) Although substantial efforts have been made to improve
 the XX, it still remains unknown how XX.
 
-5) This triggers us to develop proper xx.
+5) This triggers us to develop proper.
 
 6) In the experiment, we empirically set XX.
