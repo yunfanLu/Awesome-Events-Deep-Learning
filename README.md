@@ -353,9 +353,9 @@
 | Arxiv 2020  | E3D: Event-Based 3D Shape Reconstruction                                                  |           |
 | ECCV  2022  | EvAC3D: From Event-based Apparent Contours to 3D Models via Continuous Visual Hulls       |           |
 | Arxiv 2022  | Event-based Non-Rigid Reconstruction from Contours                                        |           |
+| Arxiv 2022  | Event-Based Dense Reconstruction Pipeline                                                 |           |
 | ECCV  2016  | Real-Time 3D Reconstruction and 6-DoF Tracking with an Event Camera                       |           |
 | ICAR  2019  | Multi-View 3D Reconstruction with Self-Organizing Maps on Event-Based Data                |           |
-| Arxiv 2022  | Event-Based Dense Reconstruction Pipeline                                                 |           |
 | IJCV  2018  | Real-Time Intensity-Image Reconstruction for Event Cameras Using Manifold Regularisation  |           |
 | IEEE  2021  | Event-Based Stereo Visual Odometry                                                        |           |
 | 3DV   2021  | ESL: Event-based Structured Light                                                         |           |
