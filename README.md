@@ -31,7 +31,7 @@
   - [1.8 Event Histogram](#18-event-histogram)
   - [1.9 Event Image](#19-event-image)
   - [1.10 Timestamp Image](#110-timestamp-image)
-  - [1.11 DiT & DiSR](#111-dit--disr)
+  - [1.11 DiT \& DiSR](#111-dit--disr)
   - [Open Sources Projects](#open-sources-projects)
 - [2 Event Only](#2-event-only)
   - [2.1 Image / Video Reconstruction](#21-image--video-reconstruction)
@@ -224,6 +224,7 @@
 | ICCV 2021   | Graph-based Asynchronous Event Processing for Rapid Object Recognition           |           |
 | ICCV 2021   | N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras   |           |
 | ICCV 2021   | Temporal-wise Attention Spiking Neural Networks for Event Streams Classification |           |
+| CVPR 2020  | Video to Events: Recycling Video Datasets for Event Cameras  |   |
 | ECCV 2020   | Event-based Asynchronous Sparse Convolutional Networks  |      |
 | ICCV 2019  | End-to-End Learning of Representations for Asynchronous Event-Based Data |    |
 
@@ -341,21 +342,21 @@
 # 4 Domain Specific
 
 
-## 4.1 NeRF & 3D reconstruction (To be discussed)
+## 4.1 NeRF & 3D reconstruction 
 
 | Publication | Title                                                                                     | Highlight |
 | ----------- | ----------------------------------------------------------------------------------------  | --------- |
 | Arxiv 2022  | EventNeRF: Neural Radiance Fields from a Single Colour Event Camera                       |           |
 | Arxiv 2022  | Ev-NeRF: Event Based Neural Radiance Field                                                |           |
 | Arxiv 2022  | E-NeRF: Neural Radiance Fields from a Moving Event Camera                                 |           |
-| ECCV  2016  | Real-Time 3D Reconstruction and 6-DoF Tracking with an Event Camera                       |           |
-| Arxiv 2020  | E3D: Event-Based 3D Shape Reconstruction                                                  |           |
-| ICAR  2019  | Multi-View 3D Reconstruction with Self-Organizing Maps on Event-Based Data                |           |
-| Arxiv 2022  | Event-Based Dense Reconstruction Pipeline                                                 |           |
-| Arxiv 2022  | Event-based Non-Rigid Reconstruction from Contours                                        |           |
-| IJCV  2018  | Real-Time Intensity-Image Reconstruction for Event Cameras Using Manifold Regularisation  |           |
 | IJCV  2018  | EMVS: Event-Based Multi-View Stereo—3D Reconstruction with an Event Camera in Real-Time   |           |
-| ECCV  2018  | EvAC3D: From Event-Based Apparent Contours to 3D Models via Continuous Visual Hulls       |           |
+| Arxiv 2020  | E3D: Event-Based 3D Shape Reconstruction                                                  |           |
+| ECCV  2022  | EvAC3D: From Event-based Apparent Contours to 3D Models via Continuous Visual Hulls       |           |
+| Arxiv 2022  | Event-based Non-Rigid Reconstruction from Contours                                        |           |
+| Arxiv 2022  | Event-Based Dense Reconstruction Pipeline                                                 |           |
+| ECCV  2016  | Real-Time 3D Reconstruction and 6-DoF Tracking with an Event Camera                       |           |
+| ICAR  2019  | Multi-View 3D Reconstruction with Self-Organizing Maps on Event-Based Data                |           |
+| IJCV  2018  | Real-Time Intensity-Image Reconstruction for Event Cameras Using Manifold Regularisation  |           |
 | IEEE  2021  | Event-Based Stereo Visual Odometry                                                        |           |
 | 3DV   2021  | ESL: Event-based Structured Light                                                         |           |
 | ECCV  2020  | Stereo Event-Based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction         |           |
@@ -415,11 +416,15 @@
 
 | Publication | Title                                                                                      | Highlight |
 | ----------- | ------------------------------------------------------------------------------------------ | --------- |
+| PAMI 2021   | luvHarris: A Practical Corner Detector for Event-Cameras                                   |           |
+| ECCV 2020   | Stereo Event-based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction          |           |
 | CVPR-W 2019 | Fast Event-based Corner Detection                                                          |           |
+| IROS 2019   | Fa-harris: A fast and asynchronous corner detector for event cameras                       |           |
 | CVPR-W 2019 | Speed Invariant Time Surface for Learning to Detect Corner Points with Event-Based Cameras |           |
+| T-RAL 2018  | Asynchronous corner detection and tracking for event cameras in real time                  |           |
+| 3DV 2018    | ACE: An efficient asynchronous corner tracker for event cameras                            |           |
 |             | Object tracking on event cameras with offline–online learning                              |           |
 |             | Real-Time Face & Eye Tracking and Blink Detection using Event Cameras                      |           |
-| ECCV 2020   | Stereo Event-based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction          |           |
 | ISFV 2014   | Large-scale Particle Tracking with Dynamic Vision Sensors                                  |           |
 
 
