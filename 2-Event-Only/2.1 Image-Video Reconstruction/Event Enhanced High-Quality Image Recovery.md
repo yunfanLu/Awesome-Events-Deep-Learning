@@ -4,7 +4,7 @@ arXiv 2020
 
 # Research Question
 
-Is it possible to ﬁnd a uniﬁed framework to consider denoising, debluring and super-resolution simultaneously?
+Is it possible to find an unfied framework to consider denoising, debluring and super-resolution simultaneously?
 
 # Main Contributions
 
