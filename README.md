@@ -356,7 +356,6 @@
 | Arxiv 2022  | Event-Based Dense Reconstruction Pipeline                                                 |           |
 | ECCV  2016  | Real-Time 3D Reconstruction and 6-DoF Tracking with an Event Camera                       |           |
 | ICAR  2019  | Multi-View 3D Reconstruction with Self-Organizing Maps on Event-Based Data                |           |
-| IJCV  2018  | Real-Time Intensity-Image Reconstruction for Event Cameras Using Manifold Regularisation  |           |
 | IEEE  2021  | Event-Based Stereo Visual Odometry                                                        |           |
 | 3DV   2021  | ESL: Event-based Structured Light                                                         |           |
 | ECCV  2020  | Stereo Event-Based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction         |           |
