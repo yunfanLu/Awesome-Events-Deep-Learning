@@ -218,15 +218,30 @@
 
 | Publication | Title                                                                            | Highlight |
 | ----------- | -------------------------------------------------------------------------------- | --------- |
+| T-PAMI 2022 | Time-Ordered Recent Event (TORE) Volumes for Event Cameras |  |
+| Arxiv 2022  | Event Transformer                 |  |
+| Arxiv 2022  | Exploiting Spatial Sparsity for Event Cameras with Visual Transformers                   |  |
+| RA-L 2022   | VMV-GCN: Volumetric Multi-View Based Graph CNN for Event Stream Classificati                   |  |
+| CVPR 2022   | A Voxel Graph CNN for Object Classification with Event Cameras                   |           |
 | CVPR 2022   | Ev-TTA: Test-Time Adaptation for Event-Based Object Recognition                  |           |
 | CVPR 2022   | AEGNN: Asynchronous Event-based Graph Neural Networks                            |           |
-| CVPR 2022   | A Voxel Graph CNN for Object Classification with Event Cameras                   |           |
-| ICCV 2021   | Graph-based Asynchronous Event Processing for Rapid Object Recognition           |           |
-| ICCV 2021   | N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras   |           |
+| Frontiers in Neuroscience 2021 | ES-ImageNet: A Million Event-Stream Classification Dataset for Spiking Neural Networks |  |
+| T-IP 2021   |  Learning from Images: A Distillation Learning Framework for Event Cameras      |           |
+| T-CSVT 2021   |  MVF-Net: A Multi-view Fusion Network for Event-based Object Classification      |           |
+| CVPRW 2021   |   V2e: From video frames to realistic DVS events         |           |
 | ICCV 2021   | Temporal-wise Attention Spiking Neural Networks for Event Streams Classification |           |
+| RA-L 2021   | DA4Event: Towards Bridging the Sim-to-Real Gap for Event Cameras Using Domain Adaptation |           |
+| ICCV 2021   | N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras   |           |
+| ICCV 2021   | Graph-based Asynchronous Event Processing for Rapid Object Recognition |           |
+| ECCV 2020  | A Differentiable Recurrent Surface for Asynchronous Event-Based Data  |   |
 | CVPR 2020  | Video to Events: Recycling Video Datasets for Event Cameras  |   |
 | ECCV 2020   | Event-based Asynchronous Sparse Convolutional Networks  |      |
+| T-PAMI 2019 | High Speed and High Dynamic Range Video with an Event Camera |  |
+| T-PAMI 2019 | DART: Distribution aware retinal transform for event-based cameras |  |
+| CVPR 2019 | Events-to-video: Bringing modern computer vision to event cameras |  |
+| ICCV 2019 | Graph-based object classification for neuromorphic vision sensing |  |
 | ICCV 2019  | End-to-End Learning of Representations for Asynchronous Event-Based Data |    |
+| CVPR 2018 | HATS: Histograms of Averaged Time Surfaces for Robust Event-Based Object Classification |  |
 
 ## 2.4 Detection
 | Publication | Title                                                                                                             | Highlight |
