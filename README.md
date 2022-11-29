@@ -346,24 +346,20 @@
 
 | Publication | Title                                                                                     | Highlight |
 | ----------- | ----------------------------------------------------------------------------------------  | --------- |
-| Arxiv 2022  | EventNeRF: Neural Radiance Fields from a Single Colour Event Camera                       |           |
-| Arxiv 2022  | Ev-NeRF: Event Based Neural Radiance Field                                                |           |
-| Arxiv 2022  | E-NeRF: Neural Radiance Fields from a Moving Event Camera                                 |           |
-| IJCV  2018  | EMVS: Event-Based Multi-View Stereo—3D Reconstruction with an Event Camera in Real-Time   |           |
-| Arxiv 2020  | E3D: Event-Based 3D Shape Reconstruction                                                  |           |
-| ECCV  2022  | EvAC3D: From Event-based Apparent Contours to 3D Models via Continuous Visual Hulls       |           |
-| Arxiv 2022  | Event-based Non-Rigid Reconstruction from Contours                                        |           |
-| Arxiv 2022  | Event-Based Dense Reconstruction Pipeline                                                 |           |
-| ECCV  2016  | Real-Time 3D Reconstruction and 6-DoF Tracking with an Event Camera                       |           |
-| ICAR  2019  | Multi-View 3D Reconstruction with Self-Organizing Maps on Event-Based Data                |           |
-| IEEE  2021  | Event-Based Stereo Visual Odometry                                                        |           |
-| 3DV   2021  | ESL: Event-based Structured Light                                                         |           |
-| ECCV  2020  | Stereo Event-Based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction         |           |
-| ICCV  2021  | EventHPE: Event-Based 3D Human Pose and Shape Estimation                                  |           |
-| CVPR  2018  | A Low Power, High Throughput, Fully Event-Based Stereo System                             |           |
-| ICCV  2019  | Learning an Event Sequence Embedding for Dense Event-Based Deep Stereo                    |           |
-| CVPRW  2021 | Differentiable Event Stream Simulator for Non-Rigid 3D Trackin                            |           |
-| CVPRW  2019 | Dhp19: Dynamic vision sensor 3d human pose dataset                                        |           |
+| Arxiv 2022  | EventNeRF: Neural Radiance Fields from a Single Colour Event Camera                                      |           |
+| Arxiv 2022  | Ev-NeRF: Event Based Neural Radiance Field                                                               |           |
+| Arxiv 2022  | E-NeRF: Neural Radiance Fields from a Moving Event Camera                                                |           |
+| IJCV  2018  | EMVS: Event-Based Multi-View Stereo—3D Reconstruction with an Event Camera in Real-Time                  |           |
+| Arxiv 2020  | E3D: Event-Based 3D Shape Reconstruction                                                                 |           |
+| ECCV  2022  | EvAC3D: From Event-based Apparent Contours to 3D Models via Continuous Visual Hulls                      |           |
+| Arxiv 2022  | Event-based Non-Rigid Reconstruction from Contours                                                       |           |
+| Arxiv 2022  | Event-Based Dense Reconstruction Pipeline                                                                |           |
+| ECCV  2016  | Real-Time 3D Reconstruction and 6-DoF Tracking with an Event Camera                                      |           |
+| ICAR  2019  | Multi-View 3D Reconstruction with Self-Organizing Maps on Event-Based Data                               |           |
+| IEEE  2018  | Ultimate slam? combining events, images, and imu for robust visual slam in hdr and high-speed scenarios  |           |
+| 3DV   2021  | ESL: Event-based Structured Light                                                                        |           |
+| ECCV  2020  | Stereo Event-Based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction                        |           |
+| ICCV  2019  | Learning an Event Sequence Embedding for Dense Event-Based Deep Stereo                                   |           |
 
 ## 4.2 Human Pose and Shape
 
@@ -378,7 +374,7 @@
 | WACV 2019   | Space-Time Event Clouds for Gesture Recognition: From RGB Cameras to Event Cameras   | Hand Pose  |
 | CVPR 2019   | DHP19: Dynamic Vision Sensor 3D Human Pose Dataset                                   |            |
 | Arxiv 2019  | EventGAN: Leveraging Large Scale Image Datasets for Event Cameras                    |            |
-
+| ICCV  2021  | EventHPE: Event-Based 3D Human Pose and Shape Estimation                                                 |           |
 
 ## 4.3 Body and Eye Tracking
 
