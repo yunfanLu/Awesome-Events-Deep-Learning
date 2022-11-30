@@ -270,17 +270,27 @@
 | Publication | Title                                                                                                                          | Highlight |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------ | --------- |
 | CVPRW 2019  | EV-SegNet: Semantic Segmentation for Event-Based Cameras                                                                       |           |
-| ECCV 2022   | ESS: Learning Event-Based Semantic Segmentation from Still Images                                                              |           |
-| IROS 2021   | ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data                                                |           |
-| CVPR 2021   | Dual Transfer Learning for Event-Based End-Task Prediction via Pluggable Event to Image Translation                            |           |
-| CVPRW 2021  | SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos                                   |           |
+| IROS  2019  | EV-IMO: Motion Segmentation Dataset and Learning Pipeline for Event Cameras                                                    |
+  |
+| ICCV 2019   | Event-Based Motion Segmentation by Motion Compensation                                                                         |           |
 | CVPR 2020   | Video to Events:Recycling Video Datasets for Event Cameras                                                                     |           |
 | CVPR 2020   | Learning Visual Motion Segmentation using Event Surfaces                                                                       |           |
+| ICDSP 2021  | VESS: Variable Event Stream Structure for Event-based Instance Segmentation Benchmark                                          |
+  |
+| IROS 2021   | ISSAFE: Improving Semantic Segmentation in Accidents by Fusing Event-based Data                                                |           |
+| IROS 2021   | Event-based Motion Segmentation by Cascaded Two-Level Multi-Model Fitting                                                      |           |
+| IROS 2021   | SpikeMS: Deep Spiking Neural Network for Motion Segmentation                                                                   |           |
+| ICNOS 2021  | Superevents: Towards Native Semantic Segmentation for Event-based Cameras                                                      |
+  |
+| CVPR 2021   | Dual Transfer Learning for Event-Based End-Task Prediction via Pluggable Event to Image Translation                            |           |
+| CVPRW 2021  | SoccerNet-v2: A Dataset and Benchmarks for Holistic Understanding of Broadcast Soccer Videos                                   |           |
 | CVPR 2021   | EvDistill: Asynchronous Events to End-task Learning via Bidirectional Reconstruction-guided Cross-modal Knowledge Distillation |           |
-| ICCV 2019   | Event-Based Motion Segmentation by Motion Compensation                                                                         |           |
+| MMsys 2021  | EMotion segmentation and tracking for integrating event cameras                                                                |           |
 | TPAMI 2022  | Globally-Optimal Contrast Maximisation for Event Cameras                                                                       |           |
-|             | Event-Based Motion Segmentation With Spatio-Temporal Graph Cuts                                                                |           |
-|             | Event Camera Survey and Extension Application to Semantic Segmentation                                                         |           |
+| IPMV 2022   | Event Camera Survey and Extension Application to Semantic Segmentation                                                         |           |
+| ECCV 2022   | ESS: Learning Event-Based Semantic Segmentation from Still Images                                                              |           |
+| TITS 2022   | Exploring Event-Driven Dynamic Context for Accident Scene Segmentation                                                         |           |
+| NCS  2022   | Beyond Classification: Directly Training Spiking Neural Networks for Semantic Segmentation                                     |           |
 
 
 # 3 Event + RGB 
