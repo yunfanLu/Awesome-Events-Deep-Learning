@@ -282,7 +282,6 @@
 | TITS 2022   | Exploring Event-Driven Dynamic Context for Accident Scene Segmentation                                                         |            |
 | NCS  2022   | Beyond Classification: Directly Training Spiking Neural Networks for Semantic Segmentation                                     |            |
 | IROS  2019  | EV-IMO: Motion Segmentation Dataset and Learning Pipeline for Event Cameras                                                    |
-motion seg   |
 | ICCV  2019  | Event-Based Motion Segmentation by Motion Compensation                                                                         |         motion seg   |
 | CVPR 2020   | Video to Events:Recycling Video Datasets for Event Cameras                                                                     |         motion seg   |
 | CVPR 2020   | Learning Visual Motion Segmentation using Event Surfaces                                                                       |         motion seg   |
