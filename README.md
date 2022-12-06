@@ -246,25 +246,25 @@
 ## 2.4 Detection
 | Publication | Title                                                                                                             | Highlight |
 | ----------- | ----------------------------------------------------------------------------------------------------------------- | --------- |
-| NIPS 2020   | Learning to Detect Objects with a 1 Megapixel Event Camera                                                        |           |
-| ICRA 2022   | Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditio                                 |           |
-| ICIP 2021   | An Attention Fusion Network For Event-Based Vehicle Object Detection                                              |           |
-| TIP  2021   | Asynchronous Spatio-Temporal Memory Network for Continuous Event-Based Object Detection                           |           |
-| WACV 2022   | Learned Event-based Visual Perception for Improved Space Object Detection                                         |           |
-| IROA 2018   | Event-Based Moving Object Detection and Tracking                                                                  |           |
-| ICCVW 2021  | Moving Object Detection for Event-Based Vision Using Graph Spectral Clustering                                    |           |
-| ICME 2019   | Event-Based Vision Enhanced: A Joint Detection Framework in Autonomous Driving                                    |           |
-| ECCV 2020   | Event-Based Asynchronous Sparse Convolutional Networks                                                            |           |
-| MFI 2022    | Global-local Feature Aggregation for Event-based Object Detection on EventKITTI                                   |           |
-| TPAMI 2019  | DART: Distribution Aware Retinal Transform for Event-Based Cameras                                                |           |
+| IROS 2018   | Towards Event-Driven Object Detection with Off-the-Shelf Deep Learning                                            |           |
 | CVPR 2018   | Pseudo-Labels for Supervised Learning on Dynamic Vision Sensor Data, Applied to Object Detection Under Ego-Motion |           |
+| ACCVW 2018  | PCA-RECT: An Energy-Efficient Object Detection Approach for Event Cameras                                         |           |
+| IROA 2018   | Event-Based Moving Object Detection and Tracking                                                                  |           |
+| TPAMI 2019  | DART: Distribution Aware Retinal Transform for Event-Based Cameras                                                |           |
+| ICME 2019   | Event-Based Vision Enhanced: A Joint Detection Framework in Autonomous Driving                                    |           |
+| CVPRW 2019  | Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras                                  |           |
 | AAAI 2020   | End-to-End Learning of Object Motion Estimation from Retinal Events for Event-Based Object Tracking               |           |
 | TCSVT 2020  | e-TLD: Event-Based Framework for Dynamic Object Tracking                                                          |           |
-| IROS 2018   | Towards Event-Driven Object Detection with Off-the-Shelf Deep Learning                                            |           |
-| ACCVW 2018  | PCA-RECT: An Energy-Efficient Object Detection Approach for Event Cameras                                         |           |
-| CVPRW 2019  | Asynchronous Convolutional Networks for Object Detection in Neuromorphic Cameras                                  |           |
+| ECCV 2020   | Event-Based Asynchronous Sparse Convolutional Networks                                                            |           |
+| NIPS 2020   | Learning to Detect Objects with a 1 Megapixel Event Camera                                                        |           |
+| ICIP 2021   | An Attention Fusion Network For Event-Based Vehicle Object Detection                                              |           |
+| TIP  2021   | Asynchronous Spatio-Temporal Memory Network for Continuous Event-Based Object Detection                           |           |
+| ICCVW 2021  | Moving Object Detection for Event-Based Vision Using Graph Spectral Clustering                                    |           |
 | CVPR  2021  | N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras                                    |           |
-|             | Detection of Binary Square Fiducial Markers Using an Event Camera                                                 |           |
+| WACV 2022   | Learned Event-based Visual Perception for Improved Space Object Detection                                         |           |
+| ICRA 2022   | Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditio                                 |           |
+| MFI 2022    | Global-local Feature Aggregation for Event-based Object Detection on EventKITTI                                   |           |
+| Access 2021 | Detection of Binary Square Fiducial Markers Using an Event Camera                                                 |           |
 
 ## 2.5 Segmentation
 | Publication | Title                                                                                                                          | Highlight |
