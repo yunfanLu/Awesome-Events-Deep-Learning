@@ -262,7 +262,7 @@
 | ICCVW 2021  | Moving Object Detection for Event-Based Vision Using Graph Spectral Clustering                                    |           |
 | CVPR  2021  | N-ImageNet: Towards Robust, Fine-Grained Object Recognition with Event Cameras                                    |           |
 | WACV 2022   | Learned Event-based Visual Perception for Improved Space Object Detection                                         |           |
-| ICRA 2022   | Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditio                                 |           |
+| ICRA 2022   | Fusing Event-based and RGB camera for Robust Object Detection in Adverse Conditions                               |           |
 | MFI 2022    | Global-local Feature Aggregation for Event-based Object Detection on EventKITTI                                   |           |
 | Access 2021 | Detection of Binary Square Fiducial Markers Using an Event Camera                                                 |           |
 
