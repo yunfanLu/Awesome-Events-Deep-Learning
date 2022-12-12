@@ -460,7 +460,7 @@ Foundational Event-based SLAM (no-deep learning) for pure discussion.
 | T-RAL 2018  | Asynchronous corner detection and tracking for event cameras in real time                  | no DL     |
 | 3DV 2018    | ACE: An efficient asynchronous corner tracker for event cameras                            | no DL     |
 
-### 5.2.1.2 Optical Flow for Tracking
+#### 5.2.1.2 Optical Flow for Tracking
 
 | Publication | Title                                                        | Highlight |
 | ----------- | ------------------------------------------------------------ | --------- |
@@ -489,7 +489,7 @@ CVPR and IROS present the united framework for optical flow, depth and ego-motio
 | T-IRAL 2016 | Accurate Angular Velocity Estimation With an Event Camera     | no DL |
 
 
-### 5.2.2.2 3D Reconstruction
+#### 5.2.2.2 3D Reconstruction
 | Publication | Title                                                        | Highlight |
 | ----------- | ------------------------------------------------------------ | --------- |
 | IET Comput. Vis. 2022| Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds | DL | 
