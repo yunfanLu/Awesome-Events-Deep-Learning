@@ -428,10 +428,11 @@
 # 5 Robotic Vision
 ## 5.1 Obstacle Avoidence
 | Publication | Title                                                        | Highlight |
+| ----------- | ------------------------------------------------------------ | --------- |
 | arxiv 2021| EVReflex: Dense Time-to-Impact Prediction for Event-based Obstacle Avoidance.| DeepAI，DL| 
 | ----------- | ------------------------------------------------------------ | --------- |
 | IEEE 2022| EV-Catcher: High-Speed Object Catching Using Low-Latency Event-Based Neural Networks| DL | 
-| ----------- | ------------------------------------------------------------ | --------- |
+
 
 ## 5.2 Simultaneous Localization and Mapping
 
