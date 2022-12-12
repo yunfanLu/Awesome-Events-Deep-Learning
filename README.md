@@ -426,38 +426,96 @@
 
 
 # 5 Robotic Vision
-## 5.1 Obstacle Avoidence
+## 5.1 Obstacle Detection and Tracking for Avoidence
+
+This section focuses on event-based detection/tracking tasks for Robotics implementation.
 | Publication | Title                                                        | Highlight |
 | ----------- | ------------------------------------------------------------ | --------- |
-| arxiv 2021| EVReflex: Dense Time-to-Impact Prediction for Event-based Obstacle Avoidance.| DeepAI，DL| 
+| IEEE 2022   | EV-Catcher: High-Speed Object Catching Using Low-Latency Event-Based Neural Networks      | DL        | 
+| ICRA 2020   | EVDodgeNet: Deep Dynamic Obstacle Dodging with Event Cameras                              | DL        |
+| arxiv 2021  | EVReflex: Dense Time-to-Impact Prediction for Event-based Obstacle Avoidance.             | DL        | 
+| CAAI 2020   | Object tracking on event cameras with offline–online learning                             | DL        | 
+
+## 5.2 Simultaneous Localization and Mapping (SLAM)
+
+Foundational Event-based SLAM (no-deep learning) for pure discussion.
+| Publication | Title                                                        | Highlight |
 | ----------- | ------------------------------------------------------------ | --------- |
-| IEEE 2022| EV-Catcher: High-Speed Object Catching Using Low-Latency Event-Based Neural Networks| DL | 
+| Sensor 2022 | Visual Odometry with an Event Camera Using Continuous Ray Warping and Volumetric Contrast Maximization |  no DL         |
+| CVPR-W 2021 | Comparing Representations in Tracking for Event Camera-based SLAM                          |  no DL         |
+| IEEE robot 2021 | Event-based Stereo Visual Odometry                                                     |  no DL         |
+| RAL 2018    | Ultimate SLAM? Combining Events, Images, and IMU for Robust Visual SLAM in HDR and High Speed Scenarios|  no DL         |
+| RAL 2017    | "EVO: A Geometric Approach to Event-Based 6-DOF Parallel Tracking and Mapping in Real Time |  no DL         |
+
+### 5.2.1 Front-End of SLAM
+#### 5.2.1.1 Feature Detection for Tracking
+
+| Publication | Title                                                        | Highlight |
+| ----------- | ------------------------------------------------------------ | --------- |
+| RAL 2021    | Event-based Feature Tracking for motion estimation                                         | no DL     |
+| PAMI 2021   | luvHarris: A Practical Corner Detector for Event-Cameras                                   | no DL     |
+| CVPR-W 2019 | Fast Event-based Corner Detection                                                          | no DL     |
+| IROS 2019   | Fa-harris: A fast and asynchronous corner detector for event cameras                       | no DL     |
+| CVPR-W 2019 | Speed Invariant Time Surface for Learning to Detect Corner Points with Event-Based Cameras | DL        |
+| T-RAL 2018  | Asynchronous corner detection and tracking for event cameras in real time                  | no DL     |
+| 3DV 2018    | ACE: An efficient asynchronous corner tracker for event cameras                            | no DL     |
+
+### 5.2.1.2 Optical Flow for Tracking
+
+| Publication | Title                                                        | Highlight |
+| ----------- | ------------------------------------------------------------ | --------- |
+| ECCV 2022 | Secrets of Event-Based Optical Flow                            | no DL | 
+| 3DV 2021 | E-RAFT: Dense Optical Flow from Event Cameras                   | DL | 
+| T-PAMI 2020| Unsupervised Learning of a Hierarchical Spiking Neural Network for Optical Flow Estimation: From Events to Global Motion Perception | DL | 
+| CVPR 2020| Single Image Optical Flow Estimation with an Event Camera | no DL |  
+| CVPR 2020| Single Image Optical Flow Estimation With an Event Camera  | DL  | 
+| ECCV 2020 | Spike-FlowNet: Event-Based Optical Flow Estimation with Energy-Efficient Hybrid Neural Networks | DL | 
+| ECCV 2020 | Jointly Learning Visual Motion and Confidence from Local Patches in Event Cameras| DL | 
+| Robotics: S&S XIV 2018| EV-FlowNet: Self-Supervised Optical Flow Estimation for Event-based Cameras | DL | 
+
+### 5.2.2 Back-End of SLAM
+
+In the above summarised Optical Flow, we have obtained the pixel motion. The ego-motion estimation we discussed here focuses on explicitly regressing the 6-DOF motion from event data through an end-to-end trainable pipeline. In traditional SLAM, we can easily estimate depth and ego motion through triangulation and the followed local pose estimation e.g. PnP. When adopting a learning-based approach, the optical flow, depth and ego-motion estimation usually be united in single, consistent frameworks, which provides an opportunity for dense mapping in the SLAM system. 
+
+#### 5.2.2.1 Ego-motion estimation
+
+CVPR and IROS present the united framework for optical flow, depth and ego-motion estimation. The recent EAGAN adopting Transformer to boost the performance of optical flow task to SOTA, yet no optimization is done to depth estimation. Moreover, the network show increse in parameter while the motion estimation is even kicked out of the network.
+
+| Publication | Title                                                        | Highlight |
+| ----------- | ------------------------------------------------------------ | --------- |
+| ARXIV 2022| EAGAN: Event‐based attention generative adversarial networks for optical flow and depth estimation | DL | 
+| IROS 2020| Unsupervised Learning of Dense Optical Flow, Depth and Egomotion with Event-Based Sensors | DL | 
+| CVPR 2019| Unsupervised Event-Based Learning of Optical Flow, Depth, and Egomotion | DL | 
+| T-IRAL 2016 | Accurate Angular Velocity Estimation With an Event Camera     | no DL |
 
 
-## 5.2 Simultaneous Localization and Mapping
+### 5.2.2.2 3D Reconstruction
+| Publication | Title                                                        | Highlight |
+| ----------- | ------------------------------------------------------------ | --------- |
+| IET Comput. Vis. 2022| Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds | DL | 
+| 3DV 2020 | Learning Monocular Dense Depth from Events                                      | DL | 
 
-### 5.2.1 Feature Detection for Tracking
+### 5.2.3 End-to-End SLAM
+| Publication | Title                                                        | Highlight |
 | ----------- | ------------------------------------------------------------ | --------- |
-| | | | 
-| ----------- | ------------------------------------------------------------ | --------- |
-| | | | 
-| ----------- | ------------------------------------------------------------ | --------- |
-| | | | 
+| ICRAS 2022 | Event-Based Dense Reconstruction Pipeline                                               | DL reconstruction     | 
+| ESWA 2021  | A 6-DOFs event-based camera relocalization system by CNN-LSTM and image denoising       | DL pose+relocalization| 
+| CVPR-W 2019| Real-Time 6DOF Pose Relocalization for Event Cameras With Stacked Spatial LSTM Networks | DL pose+relocalization| 
+| ARXIV 2019 | V2CNet: A Deep Learning Framework to Translate Videos to Commands for Robotic Manipulation | DL Task-specific (control)| 
 
-### 5.2.2 Optical Flow
+## 5.3 Multi-sensor
 
-| ----------- | ------------------------------------------------------------ | --------- |
-| | | | 
-| ----------- | ------------------------------------------------------------ | --------- |
-| | | | 
-| ----------- | ------------------------------------------------------------ | --------- |
-| | | | 
-| ----------- | ------------------------------------------------------------ | --------- |
-| | | | 
-| ----------- | ------------------------------------------------------------ | --------- |
-| | | | 
+| Publication | Title                              | Highlight |
+| ----------- | ---------------------------------- | --------- |
+| IET Comput. Vis. 2022| Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds | DL | 
+| CVPR-W 2021 | How To Calibrate Your Event Camera |  no DL         |
+
 # 6 New Direction
-
+| Publication | Title                                                        | Highlight |
+| ----------- | ------------------------------------------------------------ | --------- |
+| | | | 
+| | | | 
+| | | | 
 
 # 7 Discussion
 
