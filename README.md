@@ -432,6 +432,7 @@ This section focuses on event-based detection/tracking tasks for Robotics implem
 | Publication | Title                                                        | Highlight |
 | ----------- | ------------------------------------------------------------ | --------- |
 | RAL 2022   | EV-Catcher: High-Speed Object Catching Using Low-Latency Event-Based Neural Networks      | DL        | 
+| IEEE Robot & Automat 2021| Fast motion understanding with spatiotemporal neural networks and dynamic vision sensors |DL |
 | arxiv 2021  | EVReflex: Dense Time-to-Impact Prediction for Event-based Obstacle Avoidance.             | DL        | 
 | ICRA 2020   | EVDodgeNet: Deep Dynamic Obstacle Dodging with Event Cameras                              | DL        |
 | CAAI 2020   | Object tracking on event cameras with offline–online learning                             | DL        | 
