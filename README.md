@@ -426,7 +426,7 @@
 
 
 # 5 Robotic Vision
-## 5.1 Obstacle Detection and Tracking for Avoidence
+## 5.1 Detection and Tracking
 
 This section focuses on event-based detection/tracking tasks for Robotics implementation.
 | Publication | Title                                                        | Highlight |
