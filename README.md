@@ -426,7 +426,7 @@
 
 
 # 5 Robotic Vision
-## 5.1 Detection and Tracking
+## 5.1 Object Detection and Tracking
 
 This section focuses on event-based detection/tracking tasks for Robotics implementation.
 | Publication | Title                                                        | Highlight |
