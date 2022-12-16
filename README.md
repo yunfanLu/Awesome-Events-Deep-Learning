@@ -458,7 +458,7 @@ Foundational Event-based SLAM (no-deep learning) for pure discussion.
 | CVPR-W 2019 | Fast Event-based Corner Detection                                                          | no DL     |
 | IROS 2019   | Fa-harris: A fast and asynchronous corner detector for event cameras                       | no DL     |
 | CVPR-W 2019 | Speed Invariant Time Surface for Learning to Detect Corner Points with Event-Based Cameras | ML        |
-| T-RAL 2018  | Asynchronous corner detection and tracking for event cameras in real time                  | no DL     |
+| ECCV 2018  | Asynchronous, Photometric Feature Tracking using Events and Frames                  | ML     |
 | 3DV 2018    | ACE: An efficient asynchronous corner tracker for event cameras                            | no DL     |
 
 #### 5.2.1.2 Optical Flow for Tracking
