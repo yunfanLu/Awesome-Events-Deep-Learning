@@ -453,7 +453,6 @@ Foundational Event-based SLAM (no-deep learning) for pure discussion.
 
 | Publication | Title                                                        | Highlight |
 | ----------- | ------------------------------------------------------------ | --------- |
-| RAL 2021    | Event-based Feature Tracking for motion estimation                                         | no DL     |
 | PAMI 2021   | luvHarris: A Practical Corner Detector for Event-Cameras                                   | no DL     |
 | CVPR-W 2019 | Fast Event-based Corner Detection                                                          | no DL     |
 | IROS 2019   | Fa-harris: A fast and asynchronous corner detector for event cameras                       | no DL     |
