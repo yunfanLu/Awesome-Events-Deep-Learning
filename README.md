@@ -404,10 +404,8 @@
 
 | Publication | Title                                                                             | Highlight |
 | ----------- | --------------------------------------------------------------------------------- | --------- |
-|             | Object tracking on event cameras with offline–online learning                     |           |
-|             | Real-Time Face & Eye Tracking and Blink Detection using Event Cameras             |           |
-| ECCV 2020   | Stereo Event-based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction |           |
-| ISFV 2014   | Large-scale Particle Tracking with Dynamic Vision Sensors                         |           |
+| CAAI2020    | Object tracking on event cameras with offline–online learning                     |           |
+| NN 2021     | Real-Time Face & Eye Tracking and Blink Detection using Event Cameras             |           |
 | T-CG 2021   | Event Based, Near-Eye Gaze Tracking Beyond 10,000Hz                               | Dataset   |
 
 ## 4.4 Face
