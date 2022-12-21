@@ -282,15 +282,23 @@
 | ECCV 2022   | ESS: Learning Event-Based Semantic Segmentation from Still Images                                                              |            |
 | TITS 2022   | Exploring Event-Driven Dynamic Context for Accident Scene Segmentation                                                         |            |
 | NCS  2022   | Beyond Classification: Directly Training Spiking Neural Networks for Semantic Segmentation                                     |            |
-| IROS  2019  | EV-IMO: Motion Segmentation Dataset and Learning Pipeline for Event Cameras                                                    |
-| ICCV  2019  | Event-Based Motion Segmentation by Motion Compensation                                                                         |         motion seg   |
-| CVPR 2020   | Video to Events:Recycling Video Datasets for Event Cameras                                                                     |         motion seg   |
-| CVPR 2020   | Learning Visual Motion Segmentation using Event Surfaces                                                                       |         motion seg   |
-| IROS 2021   | Event-based Motion Segmentation by Cascaded Two-Level Multi-Model Fitting                                                      |          motion seg  |
-| MMsys 2021  | EMotion segmentation and tracking for integrating event cameras                                                                |         motion seg   |
-| IROS 2021   | SpikeMS: Deep Spiking Neural Network for Motion Segmentation                                                                   |         motion seg   |
 
-
+## Motion Segmentation
+| Publication | Title                                                                                                                          | Highlight |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------ | --------- |
+| IROS  2018  | Event-Based Moving Object Detection and Tracking                                                                               |       |
+| CVPR  2018  |  A unifying contrast maximization framework for event cameras, with applications to motion, depth, and optical flow estimation |       | 
+| IROS  2019  | EV-IMO: Motion Segmentation Dataset and Learning Pipeline for Event Cameras                                                    |       | 
+| ICCV  2019  | Event-Based Motion Segmentation by Motion Compensation                                                                         |       |
+| CVPR 2020   | Video to Events:Recycling Video Datasets for Event Cameras                                                                     |       |
+| CVPR 2020   | Learning Visual Motion Segmentation using Event Surfaces                                                                       |       |
+| ECCV 2020   | Jointly learning visual motion and confidence from local patches in event cameras                                              |       |
+| IROS 2021   | Event-based Motion Segmentation by Cascaded Two-Level Multi-Model Fitting                                                      |       |
+| MMsys 2021  | EMotion segmentation and tracking for integrating event cameras                                                                |       |
+| IROS 2021   | SpikeMS: Deep Spiking Neural Network for Motion Segmentation                                                                   |       |
+| TNNLS 2021  | Event-Based Motion Segmentation With Spatio-Temporal Graph Cuts                                                                |       |
+| ICRA 2021   | 0-MMS: Zero-Shot Multi-Motion Segmentation With A Monocular Event Camera                                                       |       |
+| AAAI 2022   | ProgressiveMotionSeg: Mutually Reinforced Framework for Event-Based Motion Segmentation                                        |       |
 
 # 3 Event + RGB 
 
